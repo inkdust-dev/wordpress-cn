@@ -1,0 +1,31 @@
+name: Sync code
+
+on:
+  push:
+    branches:
+    - main
+  schedule:
+    - cron: '0 2 * * *'
+    
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+    - name: checkout
+      uses: actions/checkout@v2
+      
+    - name: push
+      run: |
+        rm -rf *
+        wget https://cn.wordpress.org/latest-zh_CN.zip
+        unzip latest-zh_CN.zip
+        mv ./wordpress/* ./
+        rm -rf wordpress latest-zh_CN.zip*
+        
+    - name: Upload
+      run: |
+        git config --global user.email "102469134+inkdust-dev@users.noreply.github.com"
+        git config --global user.name "github-actions[bot]"
+        git add .
+        git commit -m 'sync code'
+        git push
