@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 6.1.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-08-12 07:44:58+0000\n"
+"PO-Revision-Date: 2022-11-10 17:53:57+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -43,15 +43,79 @@ msgstr "Asia/Shanghai"
 msgid "Continue"
 msgstr "继续"
 
+#. translators: 1: Learn WordPress link.
+#: wp-admin/about.php:518
+msgid "Explore <a href=\"%s\">learn.wordpress.org</a> for tutorial videos, online workshops, courses, and lesson plans for Meetup organizers, including new features in WordPress."
+msgstr "探索 <a href=\"%s\">learn.wordpress.org</a> 里提供给 Meetup 主办方的视频教程、在线工坊、课程和教学计划，并了解 WordPress 的新功能。"
+
+#: wp-admin/about.php:456
+msgid "https://wordpress.org/plugins/performance-lab/"
+msgstr "https://cn.wordpress.org/plugins/performance-lab/"
+
+#. translators: 1: REST API performance dev note, 2: Multisite performance dev
+#. note, 3: code-formatted "WP_Query" linked to dev note, 4: Block registration
+#. performance dev note, 5: Site health checks dev note; 6: code-formatted
+#. "async", 7: Performance field guide.
+#: wp-admin/about.php:440
+msgid "WordPress 6.1 resolved more than 25 tickets dedicated to enhancing performance. From the  <a href=\"%1$s\">REST API</a> to <a href=\"%2$s\">multisite</a>, %3$s to <a href=\"%4$s\">core block registration</a>, and <a href=\"%5$s\">new Site Health checks</a> to the addition of the %6$s attribute to images, there are performance improvements for every type of site. A full breakdown can be found in the <a href=\"%7$s\">Performance Field Guide</a>."
+msgstr "WordPress 6.1 解决了超过 25 个用于提高性能的请求。从 <a href=\"%1$s\">REST API</a> 到<a href=\"%2$s\">多站点</a>，%3$s 到<a href=\"%4$s\">核心区块注册</a>，以及<a href=\"%5$s\">新的站点健康检查</a>到为图像添加 %6$s 属性，针对每种类型的网站都有性能改进。完整的分析可以在<a href=\"%7$s\">性能字段指南</a>中找到。"
+
+#. translators: 1: Link to template options dev note, 2: Link to template
+#. creation dev note.
+#: wp-admin/about.php:90
+msgid "<a href=\"%1$s\">New templates</a> include a custom template for posts and pages in the Site Editor. Search-and-replace tools speed up the design of <a href=\"%2$s\">template parts</a>."
+msgstr "<a href=\"%1$s\">全新的模版</a>在站点编辑器中包含了文章和页面的自定义模版。 “搜索和替换”工具加速了<a href=\"%2$s\">模版组件</a>的设计。"
+
+#. translators: 1: Variation announcement post URL, 2: Accessibility-ready
+#. handbook page.
+#: wp-admin/about.php:74
+msgid "Building on the foundational elements in the 5.9 and 6.0 releases for block themes and style variations, the new default theme, Twenty Twenty-Three, includes <a href=\"%1$s\">10 different styles</a> and is &#147;<a href=\"%2$s\">Accessibility Ready</a>&#148;."
+msgstr "在 5.9 和 6.0 版本针对区块主题和样式变化的基础上，新的默认主题——二〇二三——包含了 <a href=\"%1$s\">10 种不同样式</a> 并且具备<a href=\"%2$s\">无障碍功能</a>。"
+
+#: wp-admin/about.php:57
+msgid "This page highlights some of the most significant changes to the product since the May 2022 release of WordPress 6.0. You will also find resources for developers and anyone seeking a deeper understanding of WordPress."
+msgstr "此页面着重介绍自 2022 年 5 月 WordPress 发布以来的一些重大变更。您也会找到为开发者和那些希望深入了解 WordPress 的人提供的相关资源。"
+
+#: wp-admin/site-health.php:259
+msgid "Recommended items are considered beneficial to your site, although not as important to prioritize as a critical issue, they may include improvements to things such as; Performance, user experience, and more."
+msgstr "推荐改进项目是对您的站点有益处的项目，尽管其不像关键问题那样需要优先考虑，它们仍然包含对于如网站性能、用户体验等项目的改进。"
+
+#: wp-admin/site-health.php:246
+msgid "Critical issues are items that may have a high impact on your sites performance or security, and resolving these issues should be prioritized."
+msgstr "关键问题是那些可能对您的站点性能或安全有重大影响的项目，这些问题应当被优先解决。"
+
+#. translators: %s: Number of critical Site Health checks.
+#: wp-admin/menu.php:383
+msgid "Site Health %s"
+msgstr "站点健康 %s"
+
+#: wp-admin/about.php:530
+msgid "https://make.wordpress.org/core/2022/10/12/wordpress-6-1-field-guide/"
+msgstr "https://make.wordpress.org/core/2022/10/12/wordpress-6-1-field-guide/"
+
+#. translators: 1: WordPress Release Notes link, 2: WordPress version number.
+#: wp-admin/about.php:540
+msgid "<a href=\"%1$s\">Read the WordPress %2$s Release Notes</a> for more information on the included enhancements and issues fixed, installation information, developer notes and resources, release contributors, and the list of file changes in this release."
+msgstr "<a href=\"%1$s\">阅读 WordPress %2$s 发行说明</a>以进一步了解该版本所包含的改进、已修复的问题、安装信息、开发者笔记、资源、发布贡献者以及文件变更列表。"
+
 #. translators: %s: WordPress Field Guide link.
 #: wp-admin/about.php:529
 msgid "Check out the latest version of the <a href=\"%s\">WordPress Field Guide</a>. It is overflowing with detailed developer notes to help you build with WordPress."
 msgstr "请查看最新版本的 <a href=\"%s\">WordPress 详解指南</a>。其中包含了详细的开发者注释，帮助您更高效的构建 WordPress 插件和主题。"
 
+#. translators: %s: 6.1 overview video link.
+#: wp-admin/about.php:504
+msgid "See WordPress 6.1 in action! <a href=\"%s\">Watch a brief overview video</a> highlighting some of the major features debuting in WordPress 6.1."
+msgstr "来看看 WordPress 6.1 的实际应用！<a href=\"%s\">观看概览视频</a>，其中重点介绍了 WordPress 6.1 中首次亮相的主要功能。"
+
 #. translators: %s: Version number.
 #: wp-admin/about.php:495
 msgid "Learn more about WordPress %s"
 msgstr "了解 WordPress %s"
+
+#: wp-admin/about.php:487
+msgid "Exploring WordPress 6.1 video"
+msgstr "视频：探索 WordPress 6.1"
 
 #: wp-admin/includes/ajax-actions.php:1337
 #: wp-admin/includes/ajax-actions.php:1454
@@ -346,10 +410,6 @@ msgstr "在“状态”选项卡中，您可以查看有关 WordPress 配置的�
 msgid "This screen allows you to obtain a health diagnosis of your site, and displays an overall rating of the status of your installation."
 msgstr "此页面可让您获得站点的健康诊断数据，并显示 WordPress 安装状态的总体评级。"
 
-#: wp-admin/site-editor.php:23
-msgid "The theme you are currently using is not compatible with Full Site Editing."
-msgstr "您目前使用的主题不兼容全站编辑。"
-
 #: wp-admin/options-privacy.php:44
 msgid "<a href=\"https://wordpress.org/support/article/settings-privacy-screen/\">Documentation on Privacy Settings</a>"
 msgstr "<a href=\"https://wordpress.org/support/article/settings-privacy-screen/\">隐私设置文档</a>"
@@ -433,7 +493,7 @@ msgstr "您的网站可能正在使用基本身份验证功能，此功能目前
 msgid "%1$s &#8220;%2$s&#8221;"
 msgstr "%1$s “%2$s”"
 
-#: wp-admin/includes/theme.php:338
+#: wp-admin/includes/theme.php:339
 msgid "Template Editing"
 msgstr "模板编辑"
 
@@ -915,6 +975,11 @@ msgstr "无法为个人数据请求发起确认。"
 msgid "https://wordpress.org/support/article/update-services/"
 msgstr "https://wordpress.org/support/article/update-services/"
 
+#. translators: %s: The server PHP version.
+#: wp-admin/includes/dashboard.php:1858
+msgid "Your site is running on an outdated version of PHP (%s), which should be updated."
+msgstr "您的站点正在运行过时的 PHP 版本（%s），应当进行更新。"
+
 #: wp-admin/includes/dashboard.php:52
 msgid "PHP Update Recommended"
 msgstr "建议更新PHP版本"
@@ -1332,7 +1397,7 @@ msgstr "环境类型"
 msgid "Auto-updates are only available for plugins recognized by WordPress.org, or that include a compatible update system."
 msgstr "自动更新仅适用于受WordPress.org认可的插件或兼容的更新系统提供的插件。"
 
-#: wp-admin/includes/theme.php:874 wp-admin/themes.php:1036
+#: wp-admin/includes/theme.php:875 wp-admin/themes.php:1036
 msgid "Update Incompatible"
 msgstr "更新不兼容"
 
@@ -1802,6 +1867,10 @@ msgstr "扩展视图"
 msgid "Compact view"
 msgstr "紧凑视图"
 
+#: wp-admin/includes/user.php:177
+msgid "<strong>Error:</strong> Passwords do not match. Please enter the same password in both password fields."
+msgstr "<strong>错误：</strong>密码不匹配。请在两个密码字段中输入相同的密码。"
+
 #: wp-admin/includes/meta-boxes.php:354 wp-admin/includes/meta-boxes.php:355
 #: wp-admin/js/post.js:794
 msgctxt "post action/button label"
@@ -2001,17 +2070,13 @@ msgstr "所需的WordPress版本"
 msgid "Theme name"
 msgstr "主题名称"
 
-#: wp-admin/includes/theme.php:1063 wp-admin/theme-install.php:432
+#: wp-admin/includes/theme.php:1064 wp-admin/theme-install.php:432
 #: wp-admin/theme-install.php:464
 msgctxt "theme"
 msgid "Cannot Install"
 msgstr "无法安装"
 
-#: wp-admin/includes/theme.php:334
-msgid "Full Site Editing"
-msgstr "全站编辑"
-
-#: wp-admin/includes/theme.php:324
+#: wp-admin/includes/theme.php:325
 msgid "Block Editor Patterns"
 msgstr "区块编辑器样板"
 
@@ -2071,11 +2136,11 @@ msgstr "PHP内存限制（仅限管理界面）"
 msgid "Is this site discouraging search engines?"
 msgstr "此站点是否不建议搜索引擎进行索引？"
 
-#: wp-admin/includes/theme.php:350
+#: wp-admin/includes/theme.php:351
 msgid "Wide Blocks"
 msgstr "宽幅区块"
 
-#: wp-admin/includes/theme.php:325
+#: wp-admin/includes/theme.php:326
 msgid "Block Editor Styles"
 msgstr "区块编辑器样式"
 
@@ -2087,6 +2152,11 @@ msgstr "垃圾"
 #: wp-admin/setup-config.php:400 wp-admin/setup-config.php:469
 msgid "Unable to write to %s file."
 msgstr "无法写入%s文件。"
+
+#. translators: %s: The options page name.
+#: wp-admin/options.php:248
+msgid "<strong>Error:</strong> Options page %s not found in the allowed options list."
+msgstr "<strong>错误：</strong>选项页面 %s 不在允许列表中。"
 
 #: wp-admin/import.php:65 wp-admin/themes.php:305 wp-admin/users.php:327
 #: wp-admin/includes/network.php:116 wp-admin/includes/network.php:142
@@ -2159,6 +2229,16 @@ msgstr "测试不可用"
 #: wp-admin/includes/class-wp-site-health.php:2964
 msgid "Error: %1$s (%2$s)"
 msgstr "错误：%1$s（%2$s）"
+
+#. translators: %s: The server PHP version.
+#: wp-admin/includes/class-wp-site-health.php:796
+msgid "Your site is running on an older version of PHP (%s), which should be updated"
+msgstr "您的站点正在运行较旧版本的 PHP（%s），应当更新"
+
+#. translators: %s: The server PHP version.
+#: wp-admin/includes/class-wp-site-health.php:767
+msgid "Your site is running on an older version of PHP (%s)"
+msgstr "您的站点正在运行较旧版本的 PHP（%s）"
 
 #. translators: %s: The current PHP version.
 #: wp-admin/includes/class-wp-site-health.php:732
@@ -3109,7 +3189,7 @@ msgstr "%1$s 有新版本可用，但它不适用于您当前的 PHP 版本。 <
 msgid "This plugin failed to load properly and is paused during recovery mode."
 msgstr "此插件未能正确载入并已在恢复模式中暂停。"
 
-#: wp-admin/includes/theme.php:1208
+#: wp-admin/includes/theme.php:1209
 msgid "Go to the Themes screen"
 msgstr "转到“主题”页面"
 
@@ -3140,6 +3220,10 @@ msgstr[0] "%s个没有问题的项目"
 msgid "%s recommended improvement"
 msgid_plural "%s recommended improvements"
 msgstr[0] "%s个推荐的改进"
+
+#: wp-admin/site-health.php:236
+msgid "The site health check shows information about your WordPress configuration and items that may need your attention."
+msgstr "站点健康检查向您显示关于您 WordPress 配置的信息，及需要您的注意的项目。"
 
 #: wp-admin/includes/dashboard.php:68 wp-admin/site-health.php:233
 msgid "Site Health Status"
@@ -3249,6 +3333,10 @@ msgstr "REST API遇到了预料之外的结果"
 #: wp-admin/includes/class-wp-site-health.php:2090
 msgid "The REST API encountered an error"
 msgstr "REST API遇到了错误"
+
+#: wp-admin/includes/class-wp-site-health.php:2055
+msgid "The REST API is one way that WordPress and other applications communicate with the server. For example, the block editor screen relies on the REST API to display and save your posts and pages."
+msgstr "REST API 是 WordPress 及其他应用与服务器通信的一种途径。例如，区块编辑器页面就依赖 REST API 来显示及保存您的页面和文章。"
 
 #: wp-admin/includes/class-wp-site-health.php:2047
 msgid "The REST API is available"
@@ -3651,6 +3739,10 @@ msgstr "较早前的自动后台更新未能发生。"
 msgid "The error code was %s."
 msgstr "错误代码为%s。"
 
+#: wp-admin/includes/class-wp-site-health-auto-updates.php:171
+msgid "When you've been able to update using the \"Update now\" button on Dashboard > Updates, this error will be cleared for future update attempts."
+msgstr "当您已经能在仪表盘→更新中点击“立即更新”按钮来更新时，此错误将被清除以便将来的更新尝试。"
+
 #: wp-admin/includes/class-wp-site-health-auto-updates.php:170
 #: wp-admin/includes/class-wp-site-health-auto-updates.php:185
 msgid "You would have received an email because of this."
@@ -4015,7 +4107,7 @@ msgid "Must Use Plugins"
 msgstr "强制使用的插件"
 
 #: wp-admin/includes/class-wp-debug-data.php:153
-#: wp-admin/includes/theme.php:834 wp-admin/themes.php:958
+#: wp-admin/includes/theme.php:835 wp-admin/themes.php:958
 #: wp-admin/includes/class-wp-ms-themes-list-table.php:917
 msgid "Active Theme"
 msgstr "已启用的主题"
@@ -4283,15 +4375,15 @@ msgctxt "plugin"
 msgid "Resume %s"
 msgstr "恢复%s"
 
-#: wp-admin/includes/theme.php:1206
+#: wp-admin/includes/theme.php:1207
 msgid "You can find more details and make changes on the Themes screen."
 msgstr "您可以在主题页面获取更多信息及做出修改。"
 
-#: wp-admin/includes/theme.php:1205
+#: wp-admin/includes/theme.php:1206
 msgid "One or more themes failed to load properly."
 msgstr "一个或多个主题未能成功加载。"
 
-#: wp-admin/includes/theme.php:1176
+#: wp-admin/includes/theme.php:1177
 msgid "Could not resume the theme."
 msgstr "未能恢复此主题。"
 
@@ -4434,6 +4526,10 @@ msgstr[0] "已永久删除%s个区块。"
 msgid "%s block updated."
 msgid_plural "%s blocks updated."
 msgstr[0] "已更新%s个区块。"
+
+#: wp-admin/setup-config.php:281
+msgid "<strong>Error:</strong> \"Table Prefix\" must not be empty."
+msgstr "<strong>错误：</strong>“表前缀”不能为空。"
 
 #. translators: %s: The name of the plugin that generated this meta box.
 #: wp-admin/includes/template.php:1157 wp-admin/includes/template.php:1401
@@ -5711,7 +5807,7 @@ msgid "Select one or more Theme features to filter by"
 msgstr "选择一个或多个主题特征进行筛选"
 
 #. translators: %s: Number of ratings.
-#: wp-admin/includes/theme.php:857 wp-admin/theme-install.php:489
+#: wp-admin/includes/theme.php:858 wp-admin/theme-install.php:489
 msgid "(%s ratings)"
 msgstr "（%s个评级）"
 
@@ -5888,7 +5984,7 @@ msgstr "%s被成功删除。"
 msgid "The search for installed plugins will search for terms in their name, description, or author."
 msgstr "搜索已安装的插件将在主题的名字、描述、作者和标签中搜索。"
 
-#: wp-admin/includes/theme.php:329
+#: wp-admin/includes/theme.php:330
 msgid "Custom Logo"
 msgstr "自定义 logo"
 
@@ -5928,6 +6024,10 @@ msgstr "主题安装器需要JavaScript支持。"
 #: wp-admin/includes/file.php:431 wp-admin/theme-editor.php:18
 msgid "Sorry, you are not allowed to edit templates for this site."
 msgstr "抱歉，您不能在此站点上编辑模板。"
+
+#: wp-admin/setup-config.php:320
+msgid "<strong>Error:</strong> \"Table Prefix\" is invalid."
+msgstr "<strong>错误：</strong>“表前缀”无效。"
 
 #: wp-admin/plugins.php:226
 msgid "Sorry, you are not allowed to deactivate plugins for this site."
@@ -6013,43 +6113,43 @@ msgstr "请立即更新WordPress"
 msgid "<a href=\"%1$s\">WordPress %2$s</a> is available! <a href=\"%3$s\" aria-label=\"%4$s\">Please update now</a>."
 msgstr "<a href=\"%1$s\">WordPress %2$s</a>现已可用！<a href=\"%3$s\" aria-label=\"%4$s\">请立即更新</a>。"
 
-#: wp-admin/includes/theme.php:319
+#: wp-admin/includes/theme.php:320
 msgid "Portfolio"
 msgstr "作品集"
 
-#: wp-admin/includes/theme.php:318
+#: wp-admin/includes/theme.php:319
 msgid "Photography"
 msgstr "摄影"
 
-#: wp-admin/includes/dashboard.php:1314 wp-admin/includes/theme.php:317
+#: wp-admin/includes/dashboard.php:1314 wp-admin/includes/theme.php:318
 msgid "News"
 msgstr "新闻"
 
-#: wp-admin/includes/theme.php:315
+#: wp-admin/includes/theme.php:316
 msgid "Food & Drink"
 msgstr "食品和饮料"
 
-#: wp-admin/includes/theme.php:314
+#: wp-admin/includes/theme.php:315
 msgid "Entertainment"
 msgstr "娱乐"
 
-#: wp-admin/includes/theme.php:313
+#: wp-admin/includes/theme.php:314
 msgid "Education"
 msgstr "教育"
 
-#: wp-admin/includes/theme.php:312
+#: wp-admin/includes/theme.php:313
 msgid "E-Commerce"
 msgstr "电子商务"
 
-#: wp-admin/includes/theme.php:311
+#: wp-admin/includes/theme.php:312
 msgid "Blog"
 msgstr "博客"
 
-#: wp-admin/includes/theme.php:333
+#: wp-admin/includes/theme.php:334
 msgid "Footer Widgets"
 msgstr "页脚小工具"
 
-#: wp-admin/includes/theme.php:343
+#: wp-admin/includes/theme.php:344
 msgid "Grid Layout"
 msgstr "网格布局"
 
@@ -7490,7 +7590,7 @@ msgstr ""
 "###SITENAME###全体成员敬上\n"
 "###SITEURL###"
 
-#: wp-admin/includes/theme.php:821 wp-admin/themes.php:945
+#: wp-admin/includes/theme.php:822 wp-admin/themes.php:945
 msgid "Close details dialog"
 msgstr "关闭详情对话框"
 
@@ -8084,12 +8184,12 @@ msgctxt "theme"
 msgid "Active:"
 msgstr "已启用："
 
-#: wp-admin/includes/theme.php:323
+#: wp-admin/includes/theme.php:324
 msgid "Accessibility Ready"
 msgstr "无障碍友好"
 
 #. translators: %s: Theme name.
-#: wp-admin/includes/theme.php:948 wp-admin/themes.php:1115
+#: wp-admin/includes/theme.php:949 wp-admin/themes.php:1115
 msgid "This is a child theme of %s."
 msgstr "这是%s的子主题。"
 
@@ -8182,15 +8282,15 @@ msgstr "以下插件已成功升级："
 msgid "Add Widget"
 msgstr "添加小工具"
 
-#: wp-admin/includes/theme.php:820 wp-admin/themes.php:944
+#: wp-admin/includes/theme.php:821 wp-admin/themes.php:944
 msgid "Show next theme"
 msgstr "显示下一个主题"
 
-#: wp-admin/includes/theme.php:819 wp-admin/themes.php:943
+#: wp-admin/includes/theme.php:820 wp-admin/themes.php:943
 msgid "Show previous theme"
 msgstr "显示上一个主题"
 
-#: wp-admin/includes/theme.php:869 wp-admin/themes.php:1031
+#: wp-admin/includes/theme.php:870 wp-admin/themes.php:1031
 msgid "Update Available"
 msgstr "更新可用"
 
@@ -8304,6 +8404,11 @@ msgstr "您位于 %1$s 的站点在更新至到WordPress %2$s的过程中遇到�
 #: wp-admin/includes/class-wp-automatic-updater.php:761
 msgid "WordPress %s is also now available."
 msgstr "WordPress %s也已可用。"
+
+#: wp-admin/includes/update-core.php:1191
+#: wp-admin/includes/update-core.php:1227
+msgid "The update cannot be installed because your site is unable to copy some files. This is usually due to inconsistent file permissions."
+msgstr "因为您的站点不能复制一些文件，更新不能被安装。这通常是因为存在不一致的文件权限。"
 
 #: wp-admin/includes/class-language-pack-upgrader.php:114
 #: wp-admin/update-core.php:803
@@ -8834,6 +8939,10 @@ msgstr "要添加菜单而不是指派已存在的菜单，<strong>点击“使�
 msgid "To edit a menu currently assigned to a theme location, <strong>click the adjacent &#8217;Edit&#8217; link</strong>"
 msgstr "要编辑已被指派到主题位置的菜单，<strong>点击相应的“编辑”链接</strong>"
 
+#: wp-admin/nav-menus.php:655
+msgid "To assign menus to one or more theme locations, <strong>select a menu from each location&#8217;s dropdown</strong>. When you are finished, <strong>click Save Changes</strong>"
+msgstr "要将菜单分配给一个或多个主题位置，请<strong>从每个位置的下拉菜单中选择一个菜单</strong>。当您完成后请<strong>点击“保存更改”</strong>"
+
 #: wp-admin/nav-menus.php:654
 msgid "This screen is used for globally assigning menus to locations defined by your theme."
 msgstr "在本页面调整主题中菜单的位置。"
@@ -8865,6 +8974,10 @@ msgstr "菜单管理"
 #: wp-admin/nav-menus.php:629
 msgid "You can assign theme locations to individual menus by <strong>selecting the desired settings</strong> at the bottom of the menu editor. To assign menus to all theme locations at once, <strong>visit the Manage Locations tab</strong> at the top of the screen."
 msgstr "要指派单独菜单的主题位置，您可在菜单编辑器的底部<strong>选择想要的设置</strong>。要指派菜单到所有主题位置，请在顶部<strong>访问“管理位置”页</strong>。"
+
+#: wp-admin/nav-menus.php:627
+msgid "To edit an existing menu, <strong>choose a menu from the dropdown and click Select</strong>"
+msgstr "要编辑已存在的菜单，<strong>在下拉菜单中选择菜单并点击“选择”</strong>"
 
 #: wp-admin/nav-menus.php:626
 msgid "The menu management box at the top of the screen is used to control which menu is opened in the editor below."
@@ -9425,6 +9538,14 @@ msgstr "（必填）"
 #: wp-admin/link.php:112
 msgid "Edit Link"
 msgstr "编辑链接"
+
+#: wp-admin/includes/user.php:207
+msgid "<strong>Error:</strong> This email is already registered. Please choose another one."
+msgstr "<strong>错误：</strong>此电子邮箱地址已经被注册，请换一个。"
+
+#: wp-admin/includes/user.php:151
+msgid "<strong>Error:</strong> Please enter a nickname."
+msgstr "<strong>错误：</strong>请输入昵称。"
 
 #: wp-admin/credits.php:58
 msgid "https://wordpress.org/about/"
@@ -10325,6 +10446,10 @@ msgstr "音频、视频等文件"
 msgid "Insert media from another website"
 msgstr "插入来自其他网站的媒体"
 
+#: wp-admin/includes/file.php:2306
+msgid "<strong>Error:</strong> Could not connect to the server. Please verify the settings are correct."
+msgstr "<strong>错误：</strong>无法连接到服务器。请确认设置是否正确。"
+
 #: wp-admin/index.php:64
 msgid "<strong>Drag and Drop</strong> &mdash; To rearrange the boxes, drag and drop by clicking on the title bar of the selected box and releasing when you see a gray dotted-line rectangle appear in the location you want to place the box."
 msgstr "<strong>拖放功能</strong>——要重新排列模块，按住模块的标题栏，将其拖动到您希望的位置，在灰色虚线框出现后放开鼠标按键，即可调整模块的位置。"
@@ -10482,7 +10607,7 @@ msgstr "删除站点"
 
 #. translators: %s: Plugin name.
 #: wp-admin/includes/class-wp-theme-install-list-table.php:493
-#: wp-admin/includes/deprecated.php:1387 wp-admin/includes/theme.php:1060
+#: wp-admin/includes/deprecated.php:1387 wp-admin/includes/theme.php:1061
 #: wp-admin/theme-install.php:425 wp-admin/theme-install.php:462
 #: wp-admin/includes/network.php:374
 msgid "Install"
@@ -10590,19 +10715,19 @@ msgstr ""
 "如果您愿意，请点击以下链接来激活您的用户账户：\n"
 "%%s"
 
-#: wp-admin/includes/meta-boxes.php:495 wp-admin/includes/theme.php:336
+#: wp-admin/includes/meta-boxes.php:495 wp-admin/includes/theme.php:337
 msgid "Post Formats"
 msgstr "文章形式"
 
-#: wp-admin/includes/theme.php:335
+#: wp-admin/includes/theme.php:336
 msgid "Full Width Template"
 msgstr "全宽模板"
 
-#: wp-admin/includes/theme.php:332
+#: wp-admin/includes/theme.php:333
 msgid "Featured Images"
 msgstr "特色图片"
 
-#: wp-admin/includes/theme.php:331
+#: wp-admin/includes/theme.php:332
 msgid "Featured Image Header"
 msgstr "页眉特色图片"
 
@@ -10882,6 +11007,11 @@ msgstr "无需升级"
 msgid "WordPress &rsaquo; Update"
 msgstr "WordPress &rsaquo; 升级"
 
+#. translators: %s: WordPress version.
+#: wp-admin/update-core.php:188
+msgid "You are about to install WordPress %s <strong>in English (US)</strong>. There is a chance this update will break your translation. You may prefer to wait for the localized version to be released."
+msgstr "您将安装<strong>美式英语版本</strong>的 WordPress %s。这可能会破坏您当前使用的翻译。您可等待本地化版本发布后再更新。"
+
 #. translators: 1: Plugin name, 2: Details URL, 3: Additional link attributes,
 #. 4: Version number.
 #: wp-admin/includes/update.php:512
@@ -11023,7 +11153,7 @@ msgstr "正开始升级。这个过程在某些服务器上花的时间要长些
 msgid "Apply Filters"
 msgstr "应用筛选条件"
 
-#: wp-admin/includes/theme.php:330
+#: wp-admin/includes/theme.php:331
 msgid "Editor Style"
 msgstr "编辑器样式支持"
 
@@ -11831,6 +11961,10 @@ msgstr "重要："
 msgid "Update to version %s"
 msgstr "更新到%s版本"
 
+#: wp-admin/setup-config.php:286
+msgid "<strong>Error:</strong> \"Table Prefix\" can only contain numbers, letters, and underscores."
+msgstr "<strong>错误：</strong>“表前缀”只能包含数字、字母和下划线。"
+
 #: wp-admin/user-edit.php:412
 msgid "Usernames cannot be changed."
 msgstr "用户名不可更改。"
@@ -12388,7 +12522,7 @@ msgstr "选择要编辑的主题："
 msgid "Edit Themes"
 msgstr "编辑主题"
 
-#: wp-admin/includes/theme.php:1028 wp-admin/themes.php:1121
+#: wp-admin/includes/theme.php:1029 wp-admin/themes.php:1121
 msgid "Tags:"
 msgstr "标签："
 
@@ -13092,6 +13226,18 @@ msgstr "用户已存在。"
 msgid "WordPress &rsaquo; Installation"
 msgstr "WordPress &rsaquo; 安装"
 
+#: wp-admin/includes/user.php:201
+msgid "<strong>Error:</strong> Please enter an email address."
+msgstr "<strong>错误：</strong>请输入电子邮箱地址。"
+
+#: wp-admin/includes/user.php:172
+msgid "<strong>Error:</strong> Passwords may not contain the character \"\\\"."
+msgstr "<strong>错误：</strong>密码中不能有“\\”字符。"
+
+#: wp-admin/includes/user.php:167
+msgid "<strong>Error:</strong> Please enter a password."
+msgstr "<strong>错误：</strong>请输入密码。"
+
 #. translators: Default post slug.
 #: wp-admin/includes/upgrade.php:225 wp-admin/includes/upgrade.php:502
 msgctxt "Default post slug"
@@ -13188,7 +13334,7 @@ msgid "This theme is already installed."
 msgstr "该主题已安装。"
 
 #. translators: %s: Theme version.
-#: wp-admin/includes/theme.php:839 wp-admin/theme-install.php:500
+#: wp-admin/includes/theme.php:840 wp-admin/theme-install.php:500
 #: wp-admin/themes.php:963
 msgid "Version: %s"
 msgstr "版本：%s"
@@ -13201,51 +13347,51 @@ msgstr "如果您有.zip格式的主题，可以在这里通过上传的方式�
 msgid "Find Themes"
 msgstr "寻找主题"
 
-#: wp-admin/includes/theme.php:316
+#: wp-admin/includes/theme.php:317
 msgid "Holiday"
 msgstr "节日"
 
-#: wp-admin/includes/theme.php:310 wp-admin/includes/theme.php:380
+#: wp-admin/includes/theme.php:311 wp-admin/includes/theme.php:381
 msgid "Subject"
 msgstr "主题"
 
-#: wp-admin/includes/theme.php:337
+#: wp-admin/includes/theme.php:338
 msgid "Sticky Post"
 msgstr "文章置顶"
 
-#: wp-admin/includes/theme.php:339
+#: wp-admin/includes/theme.php:340
 msgid "Theme Options"
 msgstr "主题选项"
 
-#: wp-admin/includes/theme.php:327
+#: wp-admin/includes/theme.php:328
 msgid "Custom Colors"
 msgstr "自定义颜色"
 
-#: wp-admin/includes/theme.php:322 wp-admin/includes/theme.php:379
+#: wp-admin/includes/theme.php:323 wp-admin/includes/theme.php:380
 msgid "Features"
 msgstr "特色"
 
-#: wp-admin/includes/theme.php:349
+#: wp-admin/includes/theme.php:350
 msgid "Right Sidebar"
 msgstr "边栏在右侧"
 
-#: wp-admin/includes/theme.php:348
+#: wp-admin/includes/theme.php:349
 msgid "Left Sidebar"
 msgstr "边栏在左侧"
 
-#: wp-admin/includes/theme.php:347
+#: wp-admin/includes/theme.php:348
 msgid "Four Columns"
 msgstr "四栏"
 
-#: wp-admin/includes/theme.php:346
+#: wp-admin/includes/theme.php:347
 msgid "Three Columns"
 msgstr "三栏"
 
-#: wp-admin/includes/theme.php:345
+#: wp-admin/includes/theme.php:346
 msgid "Two Columns"
 msgstr "双栏"
 
-#: wp-admin/includes/theme.php:344
+#: wp-admin/includes/theme.php:345
 msgid "One Column"
 msgstr "单栏"
 
@@ -14891,7 +15037,7 @@ msgid "Header updated. <a href=\"%s\">Visit your site</a> to see how it looks."
 msgstr "顶部已更新。<a href=\"%s\">访问您的站点</a>来看看效果。"
 
 #: wp-admin/includes/class-custom-image-header.php:504
-#: wp-admin/includes/theme.php:328
+#: wp-admin/includes/theme.php:329
 msgid "Custom Header"
 msgstr "自定义页眉"
 
@@ -14911,7 +15057,7 @@ msgid "Background updated. <a href=\"%s\">Visit your site</a> to see how it look
 msgstr "背景已更新。<a href=\"%s\">访问您的站点</a>来看看效果。"
 
 #: wp-admin/includes/class-custom-background.php:233
-#: wp-admin/includes/theme.php:326
+#: wp-admin/includes/theme.php:327
 msgid "Custom Background"
 msgstr "自定义背景"
 
