@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 6.1.x - Development package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-11-11 02:27:18+0000\n"
+"PO-Revision-Date: 2022-11-11 12:06:06+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -82,7 +82,7 @@ msgstr "on"
 #: wp-includes/script-loader.php:438 wp-admin/includes/schema.php:439
 #, gp-priority: high
 msgid "F j, Y g:i a"
-msgstr "Y 年 n 月 j 日 G:i"
+msgstr "Y年n月j日a g:i"
 
 #. translators: Localized date format, see
 #. https://www.php.net/manual/datetime.format.php
@@ -94,7 +94,7 @@ msgstr "Y 年 n 月 j 日 G:i"
 #. translators: Default date format, see
 #. https://www.php.net/manual/datetime.format.php
 #. translators: 1: Date, 2: Time.
-#: wp-includes/class-wp-locale.php:375 wp-includes/media.php:4139
+#: wp-includes/class-wp-locale.php:375 wp-includes/media.php:4145
 #: wp-includes/script-loader.php:153 wp-includes/script-loader.php:436
 #: wp-admin/admin.php:113 wp-admin/edit-form-advanced.php:627
 #: wp-admin/edit-form-advanced.php:630 wp-admin/includes/ajax-actions.php:1611
@@ -110,7 +110,7 @@ msgstr "Y 年 n 月 j 日 G:i"
 #: wp-admin/options-general.php:327 wp-admin/update-core.php:1057
 #, gp-priority: high
 msgid "F j, Y"
-msgstr "Y 年 n 月 j 日"
+msgstr "Y年n月j日"
 
 #. translators: 'rtl' or 'ltr'. This sets the text direction for WordPress.
 #: wp-includes/class-wp-locale.php:229 wp-includes/script-loader.php:317
@@ -352,18 +352,249 @@ msgid "%s comment"
 msgid_plural "%s comments"
 msgstr[0] "%s 条评论"
 
+#: wp-signup.php:639
+msgid "Create a site or only a username:"
+msgstr "创建一个站点或仅创建一个用户名："
+
+#: wp-signup.php:120
+msgid "Site Domain (subdomain only):"
+msgstr "站点域名（仅限子域名）："
+
+#: wp-signup.php:118
+msgid "Site Name (subdirectory only):"
+msgstr "站点名称（仅限子目录）："
+
+#. translators: %s: wp-config.php
+#: wp-load.php:90
+msgid "There doesn't seem to be a %s file. It is needed before the installation can continue."
+msgstr "似乎没有 %s 文件。 在继续安装之前需要这个文件。"
+
+#: wp-includes/user.php:4995
+msgid "The date and time the preferences were updated."
+msgstr "日期和时间的偏好设置已更新。"
+
+#: wp-includes/theme.php:4039
+msgid "Whether the theme disables generated layout styles."
+msgstr "主题是否禁用生成的布局样式。"
+
 #: wp-includes/theme.php:3849
 msgid "Whether a theme uses block-based template parts."
 msgstr "主题是否使用基于区块的模板组件。"
+
+#: wp-includes/style-engine/class-wp-style-engine-processor.php:51
+msgid "$store must be an instance of WP_Style_Engine_CSS_Rules_Store"
+msgstr "$store 必须是 WP_Style_Engine_CSS_Rules_Store 的一个实例"
+
+#: wp-includes/revision.php:552
+msgid "Revisions not enabled."
+msgstr "修订版本未启用。"
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:89
+msgid "The template prefix for the created template. This is used to extract the main template type, e.g. in `taxonomy-books` extracts the `taxonomy`"
+msgstr "所创建模板的模板前缀。 这被用于提取主模板类型，例如在“taxonomy-books”中将提取“taxonomy”。"
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:85
+msgid "Indicates if a template is custom or part of the template hierarchy"
+msgstr "指明模板是自定义的，或是属于模板层级的一部分"
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:80
+msgid "The slug of the template to get the fallback for"
+msgstr "获取回退所用的模板的别名："
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-post-types-controller.php:404
+msgid "The icon for the post type."
+msgstr "文章类型的图标。"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-post-types-controller.php:361
 msgid "If the value is a string, the value will be used as the archive slug. If the value is false the post type has no archive."
 msgstr "如果值为字符串，则值将被用作归档别名。 如果值为 false，则此文章类型不会归档。"
 
+#: wp-includes/rest-api/endpoints/class-wp-rest-block-types-controller.php:731
+msgid "Public facing and editor style handle. DEPRECATED: Use `style_handles` instead."
+msgstr "公开界面和编辑器样式的句柄。已弃用：请使用 `style_handles` 作为代替。"
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-block-types-controller.php:724
+msgid "Editor style handle. DEPRECATED: Use `editor_style_handles` instead."
+msgstr "编辑器样式的句柄。已弃用：请使用 `editor_style_handles` 作为代替。"
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-block-types-controller.php:717
+msgid "Public facing script handle. DEPRECATED: Use `view_script_handles` instead."
+msgstr "公开界面脚本的句柄。已弃用：请使用 `view_script_handles` 作为代替。"
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-block-types-controller.php:710
+msgid "Public facing and editor script handle. DEPRECATED: Use `script_handles` instead."
+msgstr "公开界面和编辑器脚本的句柄。已弃用：请使用 `script_handles` 作为代替。"
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-block-types-controller.php:703
+msgid "Editor script handle. DEPRECATED: Use `editor_script_handles` instead."
+msgstr "编辑器脚本的句柄。已弃用：请使用 `editor_script_handles` 作为代替。"
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-block-patterns-controller.php:190
+msgid "An array of post types that the pattern is restricted to be used with."
+msgstr "该样板被限制于与此组文章类型一起使用。"
+
+#. translators: 1: $args, 2: The REST API route being registered.
+#: wp-includes/rest-api.php:113
+msgid "REST API %1$s should be an array of arrays. Non-array value detected for %2$s."
+msgstr "REST API %1$s 应当为一个由数组组成的数组。检测到 %2$s 有非数组值。"
+
+#. translators: Add new file.
+#: wp-includes/post.php:78 wp-admin/media.php:130 wp-admin/menu.php:69
+#: wp-admin/upload.php:91 wp-admin/upload.php:283
+msgctxt "file"
+msgid "Add New"
+msgstr "新增文件"
+
+#: wp-includes/ms-load.php:475
+msgid "If you are the owner of this network please check that your host&#8217;s database server is running properly and all tables are error free."
+msgstr "如果您是此站点网络的管理员，请检查您主机上的数据库服务器是否正常运行，以及数据表中是否包含错误。"
+
+#. translators: 1: VHOST, 2: SUBDOMAIN_INSTALL
+#: wp-includes/ms-default-constants.php:151
+msgid "<strong>Conflicting values for the constants %1$s and %2$s.</strong> The value of %2$s will be assumed to be your subdomain configuration setting."
+msgstr "<strong>常量 %1$s 与 %2$s 的值发生冲突。</strong> %2$s 的值将被视为您子域名的配置。"
+
+#. translators: Character to identify required form fields.
+#: wp-includes/general-template.php:5175
+msgid "*"
+msgstr "*"
+
+#. translators: 1: User name, 2: Edit user link, 3: Logout URL.
+#: wp-includes/comment-template.php:2459
+msgid "Logged in as %1$s. <a href=\"%2$s\">Edit your profile</a>. <a href=\"%3$s\">Log out?</a>"
+msgstr "以 %1$s 的身份登录。 <a href=\"%2$s\">编辑您的个人资料</a>。 <a href=\"%3$s\">注销？</a>"
+
+#. translators: %s: Digit to indicate multiple of sizing, eg. 2X-Large.
+#: wp-includes/class-wp-theme-json.php:3080
+msgid "%sX-Large"
+msgstr "%s 倍大"
+
+#. translators: %s: Digit to indicate multiple of sizing, eg. 2X-Small.
+#: wp-includes/class-wp-theme-json.php:3043
+msgid "%sX-Small"
+msgstr "%s 倍小"
+
+#: wp-includes/class-wp-theme-json.php:3009
+msgid "Some of the theme.json settings.spacing.spacingScale values are invalid"
+msgstr "theme.json 中 settings.spacing.spacingScale 的某些值无效"
+
+#. translators: 1: theme.json, 2: Value name, 3: Value path, 4: Another value
+#. name.
+#: wp-includes/class-wp-theme-json.php:1774
+msgid "Your %1$s file uses a dynamic value (%2$s) for the path at %3$s. However, the value at %3$s is also a dynamic value (pointing to %4$s) and pointing to another dynamic value is not supported. Please update %3$s to point directly to %4$s."
+msgstr "您的 %1$s 文件为路径 %3$s 使用了一个动态值（%2$s）。但是 %3$s 处的值也是一个动态值（指向 %4$s），并且系统不支持指向另一个动态值。请更新 %3$s，使其直接指向 %4$s。"
+
+#. translators: This string should only be translated if wp-config-sample.php
+#. is localized. You can check the localized release package or
+#. https://i18n.svn.wordpress.org/<locale code>/branches/<wp
+#. version>/dist/wp-config-sample.php
+#: wp-includes/class-wp-recovery-mode-cookie-service.php:209
+#: wp-includes/pluggable.php:2413 wp-admin/maint/repair.php:48
+msgid "put your unique phrase here"
+msgstr "将您的独特字串放在这里"
+
+#. translators: %s: The type of the given cache key.
+#: wp-includes/class-wp-object-cache.php:159
+msgid "Cache key must be integer or non-empty string, %s given."
+msgstr "缓存键必须是整数或非空字符串，给定 %s。"
+
+#: wp-includes/class-wp-object-cache.php:157
+msgid "Cache key must not be an empty string."
+msgstr "缓存键不能为空字符串。"
+
+#: wp-includes/class-wp-fatal-error-handler.php:189
+msgid "There has been a critical error on this website. Please reach out to your site administrator, and inform them of this error for further assistance."
+msgstr "此站点发生了一个严重的错误。请联系您的站点管理员，并通报此错误以得到他们进一步的帮助。"
+
+#. translators: %s: Capability name.
+#: wp-includes/capabilities.php:439
+msgid "When checking for the %s capability, you must always check it against a specific user."
+msgstr "在检查 %s 权限时，您必须始终依据指定的用户进行检查。"
+
+#. translators: %s: Capability name.
+#: wp-includes/capabilities.php:436 wp-includes/capabilities.php:703
+msgid "When checking for the %s capability, you must always check it against a specific term."
+msgstr "在检查 %s 权限时，您必须始终依据指定的项目进行检查。"
+
+#. translators: %s: Capability name.
+#: wp-includes/capabilities.php:433 wp-includes/capabilities.php:549
+msgid "When checking for the %s capability, you must always check it against a specific comment."
+msgstr "在检查 %s 权限时，您必须始终依据指定的评论进行检查。"
+
+#. translators: %s: Capability name.
+#: wp-includes/capabilities.php:82 wp-includes/capabilities.php:185
+#: wp-includes/capabilities.php:284
+msgid "When checking for the %s capability, you must always check it against a specific page."
+msgstr "在检查 %s 权限时，您必须始终依据指定的页面进行检查。"
+
+#. translators: %s: Capability name.
+#: wp-includes/capabilities.php:79 wp-includes/capabilities.php:182
+#: wp-includes/capabilities.php:281 wp-includes/capabilities.php:374
+#: wp-includes/capabilities.php:430
+msgid "When checking for the %s capability, you must always check it against a specific post."
+msgstr "在检查 %s 权限时，您必须始终依据指定的文章进行检查。"
+
+#: wp-includes/cache-compat.php:176
+msgid "Your object cache implementation does not support flushing individual groups."
+msgstr "您的对象缓存实现不支持刷新单个组。"
+
+#: wp-includes/cache-compat.php:144
+msgid "Your object cache implementation does not support flushing the in-memory runtime cache."
+msgstr "您的对象缓存实现不支持刷新内存中的运行时缓存。"
+
+#. translators: %s: taxonomy's label
+#: wp-includes/blocks/post-terms.php:82
+msgid "Display the assigned taxonomy: %s"
+msgstr "显示指定的分类法：%s"
+
+#. translators: Custom template title in the Site Editor, referencing a deleted
+#. author. %s: Author nicename.
+#: wp-includes/block-template-utils.php:769
+msgid "Deleted author: %s"
+msgstr "已删除的作者：%s"
+
+#. translators: Custom template description in the Site Editor. %s: Post title.
+#. translators: Custom template description in the Site Editor. %s: Term title.
+#. translators: Custom template description in the Site Editor. %s: Author
+#. name.
+#: wp-includes/block-template-utils.php:587
+#: wp-includes/block-template-utils.php:661
+#: wp-includes/block-template-utils.php:783
+msgid "Template for %s"
+msgstr "%s 的模板"
+
+#. translators: Custom template title in the Site Editor referencing a post
+#. that was not found. 1: Post type singular name, 2: Post type slug.
+#. translators: Custom template title in the Site Editor, referencing a
+#. taxonomy term that was not found. 1: Taxonomy singular name, 2: Term slug.
+#: wp-includes/block-template-utils.php:568
+#: wp-includes/block-template-utils.php:643
+msgid "Not found: %1$s (%2$s)"
+msgstr "没有找到：%1$s （%2$s）"
+
+#: wp-includes/block-template-utils.php:134
+msgid "The default template for displaying any single post or attachment."
+msgstr "用于显示任何单篇文章或单个附件的默认模板。"
+
 #: wp-includes/block-template-utils.php:133
 msgctxt "Template name"
 msgid "Single"
-msgstr "单个"
+msgstr "单页"
+
+#: wp-includes/block-patterns.php:42
+msgctxt "Block pattern category"
+msgid "Footers"
+msgstr "页脚"
+
+#. translators: 1: Hook name, 2: Error code, 3: Error message, 4: Event data.
+#: wp-cron.php:159
+msgid "Cron unschedule event error for hook: %1$s, Error code: %2$s, Error message: %3$s, Data: %4$s"
+msgstr "Cron 移出计划事件时出现错误，钩子名称：%1$s，错误代码：%2$s，错误消息：%3$s，数据：%4$s"
+
+#. translators: 1: Hook name, 2: Error code, 3: Error message, 4: Event data.
+#: wp-cron.php:132
+msgid "Cron reschedule event error for hook: %1$s, Error code: %2$s, Error message: %3$s, Data: %4$s"
+msgstr "Cron 重新计划事件时出现错误，钩子名称：%1$s，错误代码：%2$s，错误消息：%3$s，数据：%4$s"
 
 #: wp-includes/theme.php:3842
 msgid "Whether a theme uses block-based templates."
@@ -711,10 +942,14 @@ msgstr "分类名称。"
 msgid "Sorry, you are not allowed to view the registered block pattern categories."
 msgstr "抱歉，您无法查看已注册的区块样板分类。"
 
-#: wp-includes/media.php:4607 wp-admin/edit.php:181 wp-admin/post.php:322
+#: wp-includes/media.php:4613 wp-admin/edit.php:181 wp-admin/post.php:322
 #: wp-admin/upload.php:198
 msgid "Error in deleting the attachment."
 msgstr "删除附件时发生错误。"
+
+#: wp-includes/functions.php:1600
+msgid "<strong>Error:</strong> This is not a valid feed template."
+msgstr "<strong>错误：</strong>这不是有效的 feed 模版。"
 
 #. translators: Unit symbol for petabyte.
 #: wp-includes/functions.php:473
@@ -758,6 +993,10 @@ msgstr "浅色"
 msgctxt "color scheme"
 msgid "Dark"
 msgstr "深色"
+
+#: wp-includes/class-wp-theme.php:289
+msgid "<strong>Error:</strong> The themes directory is either empty or does not exist. Please check your installation."
+msgstr "<strong>错误：</strong>主题目录为空或不存在。请检查您的主题是否安装妥当。"
 
 #: wp-includes/class-wp-image-editor-gd.php:92
 #: wp-includes/class-wp-image-editor-gd.php:101
@@ -846,6 +1085,12 @@ msgstr "特色"
 #: wp-includes/script-loader.php:1295
 msgid "Use Site Editor"
 msgstr "使用站点编辑器"
+
+#. translators: 1: Link to Site Editor documentation on HelpHub, 2: HTML
+#. button.
+#: wp-includes/script-loader.php:1290
+msgid "Hurray! Your theme supports site editing with blocks. <a href=\"%1$s\">Tell me more</a>. %2$s"
+msgstr "好耶！您的主题支持带有区块的站点编辑。<a href=\"%1$s\">了解更多</a>。 %2$s"
 
 #: wp-includes/script-loader.php:1291 wp-includes/js/dist/edit-site.js:5665
 msgid "https://wordpress.org/support/article/site-editor/"
@@ -999,7 +1244,7 @@ msgstr "编辑器（测试版）"
 #: wp-admin/includes/class-wp-list-table.php:849
 #: wp-admin/includes/class-wp-list-table.php:872
 msgid "No comments"
-msgstr "无评论"
+msgstr "没有评论"
 
 #: wp-includes/js/dist/block-library.js:30114 wp-admin/network/sites.php:122
 #: wp-admin/network/sites.php:209
@@ -1365,6 +1610,14 @@ msgstr "主题标识符"
 msgid "Sorry, you are not allowed to export templates and template parts."
 msgstr "抱歉，您无权导出模板和模板组件。"
 
+#: wp-includes/rest-api/endpoints/class-wp-rest-block-types-controller.php:578
+msgid "Public facing and editor style handles."
+msgstr "公开界面和编辑器样式的句柄。"
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-block-types-controller.php:548
+msgid "Public facing and editor script handles."
+msgstr "公开界面和编辑器脚本的句柄。"
+
 #: wp-includes/rest-api/endpoints/class-wp-rest-block-directory-controller.php:282
 msgid "The date when the block was last updated."
 msgstr "区块上次更新的日期。"
@@ -1558,7 +1811,7 @@ msgstr "模板"
 msgid "<strong>Error:</strong> This email address is already registered. <a href=\"%s\">Log in</a> with this address or choose another one."
 msgstr "<strong>错误：</strong>此电子邮箱地址已被注册，请<a href=\"%s\">使用此地址登录</a>或选择其他地址。"
 
-#: wp-includes/media.php:4596
+#: wp-includes/media.php:4602
 #: wp-admin/includes/class-wp-media-list-table.php:155
 msgctxt "media items"
 msgid "Unattached"
@@ -1600,6 +1853,10 @@ msgstr "但您也可以<a href=\"%s\">启用此主题</a>，并使用站点编�
 #: wp-admin/includes/theme.php:1012
 msgid "This theme doesn't support Customizer."
 msgstr "此主题不支持自定义。"
+
+#: wp-includes/comment.php:3604
+msgid "<strong>Error:</strong> Please fill the required fields."
+msgstr "<strong>错误：</strong>请填写必填字段。"
 
 #: wp-includes/class-wp-block-styles-registry.php:85
 msgid "Block style name must not contain any spaces."
@@ -1725,7 +1982,7 @@ msgstr "分类法"
 
 #: wp-includes/block-template-utils.php:150
 msgid "Displays latest posts from a single post category."
-msgstr "显示来自某个文章分类的最新文章。"
+msgstr "显示单个文章分类中的最新文章。"
 
 #: wp-includes/block-template-utils.php:149
 msgctxt "Template name"
@@ -2737,6 +2994,22 @@ msgstr "输入/来选择一个区块"
 msgid "Layout"
 msgstr "布局"
 
+#: wp-login.php:1354
+msgid "<strong>Error:</strong> User registration is currently not allowed."
+msgstr "<strong>错误：</strong>目前不允许用户注册。"
+
+#: wp-login.php:923
+msgid "<strong>Error:</strong> The passwords do not match."
+msgstr "<strong>错误：</strong>密码不匹配。"
+
+#: wp-login.php:797
+msgid "<strong>Error:</strong> Your password reset link has expired. Please request a new link below."
+msgstr "<strong>错误：</strong>您的密码重置链接已过期，请在下方请求新链接。"
+
+#: wp-login.php:795
+msgid "<strong>Error:</strong> Your password reset link appears to be invalid. Please request a new link below."
+msgstr "<strong>错误：</strong>您的密码重置链接似乎无效，请在下方请求新的链接。"
+
 #. translators: HTML code of the block, not an option that blocks HTML.
 #: wp-includes/widgets/class-wp-widget-block.php:208
 msgid "Block HTML:"
@@ -2750,6 +3023,19 @@ msgstr "一个包含区块的小工具。"
 #: wp-includes/user.php:4144 wp-includes/user.php:4386
 msgid "%1$s or %2$s"
 msgstr "%1$s 或 %2$s"
+
+#: wp-includes/user.php:359
+msgid "<strong>Error:</strong> Unknown username. Check again or try your email address."
+msgstr "<strong>错误：</strong>未知用户名，请再次检查或改用您的电子邮箱地址进行尝试。"
+
+#: wp-includes/user.php:354
+msgid "<strong>Error:</strong> Unknown email address. Check again or try your username."
+msgstr "<strong>错误：</strong>未知电子邮箱地址，请再次检查或改用您的用户名进行尝试。"
+
+#. translators: %s: User name.
+#: wp-includes/user.php:154
+msgid "<strong>Error:</strong> The username <strong>%s</strong> is not registered on this site. If you are unsure of your username, try your email address instead."
+msgstr "<strong>错误：</strong>用户名<strong>%s</strong>未在本站点注册。如果您不确定您的用户名，请改用电子邮箱地址进行尝试。"
 
 #: wp-includes/class-wp-taxonomy.php:647
 msgctxt "navigation link block description"
@@ -3138,7 +3424,7 @@ msgstr "属性的初始值。"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-block-types-controller.php:640
 msgid "Indicates whether the current variation is the default one."
-msgstr "表示当前的变体是否为默认变体。"
+msgstr "指明当前的变体是否为默认变体。"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-block-types-controller.php:633
 msgid "A detailed variation description."
@@ -3655,7 +3941,7 @@ msgstr "%1$s不是%2$s。"
 
 #: wp-includes/cron.php:1193
 msgid "The cron event list could not be saved."
-msgstr "无法保存Cron事件列表。"
+msgstr "无法保存 Cron 事件列表。"
 
 #: wp-includes/cron.php:576 wp-includes/cron.php:665
 msgid "A plugin prevented the hook from being cleared."
@@ -3868,7 +4154,7 @@ msgstr "加载此文件只是为了向后兼容SimplePie 1.2.x。请考虑切换
 msgid "&larr; Go to Tags"
 msgstr "&larr; 转到“标签”页面"
 
-#: wp-includes/media.php:4591
+#: wp-includes/media.php:4597
 msgid "&#8592; Go to library"
 msgstr "&#8592; 转到“媒体库”页面"
 
@@ -4491,6 +4777,14 @@ msgstr "分类："
 msgid "The asset file for the \"%1$s\" defined in \"%2$s\" block definition is missing."
 msgstr "缺少在“%2$s”区块定义中所定义的“%1$s”的资产文件。"
 
+#: wp-includes/ms-deprecated.php:413
+msgid "<strong>Error:</strong> There was a problem creating site entry."
+msgstr "<strong>错误：</strong>创建站点条目时出现问题。"
+
+#: wp-includes/ms-deprecated.php:404
+msgid "<strong>Error:</strong> Site URL you&#8217;ve entered is already taken."
+msgstr "<strong>错误：</strong>您输入的站点 URL 已被占用。"
+
 #. translators: %s: Pattern name.
 #: wp-includes/class-wp-block-patterns-registry.php:134
 msgid "Pattern \"%s\" not found."
@@ -4508,11 +4802,11 @@ msgstr "样板标题必须为字符串。"
 msgid "Pattern name must be a string."
 msgstr "样板名称必须为字符串。"
 
-#: wp-includes/media.php:4620
+#: wp-includes/media.php:4626
 msgid "Attachment details"
 msgstr "附件详情"
 
-#: wp-includes/media.php:4565 wp-includes/media.php:4587
+#: wp-includes/media.php:4571 wp-includes/media.php:4593
 msgid "Add media"
 msgstr "添加媒体"
 
@@ -4984,7 +5278,7 @@ msgstr "公共文本域。"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-block-types-controller.php:607
 msgid "Contains the handle that defines the block style."
-msgstr "包含定义区块样式的控制代码。"
+msgstr "包含定义区块样式的句柄。"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-block-types-controller.php:603
 msgid "Inline CSS code that registers the CSS class required for the style."
@@ -5001,6 +5295,18 @@ msgstr "识别样式的唯一名称。"
 #: wp-includes/rest-api/endpoints/class-wp-rest-block-types-controller.php:588
 msgid "Block style variations."
 msgstr "区块样式变体。"
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-block-types-controller.php:568
+msgid "Editor style handles."
+msgstr "编辑器样式句柄。"
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-block-types-controller.php:558
+msgid "Public facing script handles."
+msgstr "公开界面脚本的句柄。"
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-block-types-controller.php:538
+msgid "Editor script handles."
+msgstr "编辑器脚本句柄。"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-block-types-controller.php:531
 msgid "Is the block dynamically rendered."
@@ -5212,7 +5518,7 @@ msgctxt "block keyword"
 msgid "links"
 msgstr "链接"
 
-#: wp-includes/media.php:4667 wp-includes/js/dist/block-library.js:54462
+#: wp-includes/media.php:4673 wp-includes/js/dist/block-library.js:54462
 msgid "Select poster image"
 msgstr "选择海报图片"
 
@@ -5229,11 +5535,20 @@ msgstr "查看文章"
 msgid "Slug"
 msgstr "别名"
 
+#: wp-includes/class-wp-customize-manager.php:5677
+msgid "https://wordpress.org/support/article/css/"
+msgstr "https://wordpress.org/support/article/css/"
+
 #. translators: %s: Digit to indicate multiple of sizing, eg. 2X-Small.
 #: wp-includes/class-wp-theme-json.php:3043
 #: wp-includes/js/dist/block-library.js:48181
 msgid "Small"
 msgstr "小"
+
+#. translators: 1: Post status, 2: Capability name.
+#: wp-includes/capabilities.php:342
+msgid "The post status %1$s is not registered, so it may not be reliable to check the capability %2$s against a post with that status."
+msgstr "此文章状态 %1$s 未被注册，所以可能无法可靠地检查该状态文章的 %2$s 能力。"
 
 #. translators: %s: Comment link.
 #: wp-includes/comment-template.php:979 wp-admin/comment.php:206
@@ -5450,11 +5765,11 @@ msgstr "附件缺少的图片尺寸列表。"
 msgid "Unknown email address. Check again or try your username."
 msgstr "未知的电子邮箱地址，请检查或改用用户名。"
 
-#: wp-includes/media.php:4692
+#: wp-includes/media.php:4698
 msgid "Media list"
 msgstr "媒体列表"
 
-#: wp-includes/media.php:4691
+#: wp-includes/media.php:4697
 msgid "Filter media"
 msgstr "筛选媒体"
 
@@ -5584,16 +5899,16 @@ msgstr "没有足够的数据来创建此用户。"
 msgid "Sorry, marking a user as spam is only supported on Multisite."
 msgstr "抱歉，仅能在多站点中标记用户为垃圾。"
 
-#: wp-includes/media.php:5222
+#: wp-includes/media.php:5228
 msgid "User&#8217;s media data."
 msgstr "用户的媒体数据。"
 
-#: wp-includes/media.php:4617
+#: wp-includes/media.php:4623
 msgid "No media items found. Try a different search."
 msgstr "未找到媒体项目，请重新搜索。"
 
 #. translators: %d: Number of attachments found in a search.
-#: wp-includes/media.php:4615
+#: wp-includes/media.php:4621
 msgid "Number of media items found: %d"
 msgstr "找到的媒体项目数量：%d"
 
@@ -5803,6 +6118,11 @@ msgstr "您的浏览器不能上传文件"
 msgid "Allow people to submit comments on new posts."
 msgstr "允许他人在新文章上发表评论。"
 
+#. translators: %s: Documentation URL.
+#: wp-includes/user.php:3255
+msgid "<strong>Error:</strong> The email could not be sent. Your site may not be correctly configured to send emails. <a href=\"%s\">Get support for resetting your password</a>."
+msgstr "<strong>错误：</strong>邮件未能发送。您的站点可能没有正确配置邮件发送。<a href=\"%s\">获取重设您密码的帮助</a>。"
+
 #: wp-includes/user.php:3256
 msgid "https://wordpress.org/support/article/resetting-your-password/"
 msgstr "https://wordpress.org/support/article/resetting-your-password/"
@@ -5894,7 +6214,7 @@ msgid "[%s] Login Details"
 msgstr "[%s] 登录详情"
 
 #: wp-includes/media-template.php:540 wp-includes/media-template.php:693
-#: wp-includes/media.php:4604 wp-admin/comment.php:138
+#: wp-includes/media.php:4610 wp-admin/comment.php:138
 #: wp-admin/edit-form-comment.php:217
 #: wp-admin/includes/class-wp-comments-list-table.php:382
 #: wp-admin/includes/class-wp-media-list-table.php:185
@@ -5905,7 +6225,7 @@ msgid "Move to Trash"
 msgstr "移动至回收站"
 
 #: wp-includes/media-template.php:538 wp-includes/media-template.php:691
-#: wp-includes/media.php:4605
+#: wp-includes/media.php:4611
 msgid "Restore from Trash"
 msgstr "从回收站中恢复"
 
@@ -5963,7 +6283,7 @@ msgstr "[%s] 电子邮箱地址已更改"
 msgid "A calendar of your site’s posts."
 msgstr "您站点所有文章的日历视图。"
 
-#: wp-includes/media.php:4631
+#: wp-includes/media.php:4637
 msgid "Edit gallery"
 msgstr "编辑相册"
 
@@ -6317,6 +6637,11 @@ msgstr "此分类法是否可公开查询。"
 msgid "Whether a taxonomy is intended for use publicly either via the admin interface or by front-end users."
 msgstr "此分类法是否可供公开使用，或是通过管理界面，或是由前端用户。"
 
+#: wp-includes/user.php:2847 wp-includes/user.php:3053
+#: wp-includes/user.php:3107
+msgid "<strong>Error:</strong> There is no account with that username or email address."
+msgstr "<strong>错误：</strong>没有使用该用户名或电子邮箱地址的账户。"
+
 #: wp-includes/class-wp.php:311 wp-includes/ms-deprecated.php:275
 #: wp-includes/ms-deprecated.php:294
 msgid "A variable mismatch has been detected."
@@ -6350,7 +6675,7 @@ msgstr "给引文提供视觉强调。“在引用其他人时我们也加强了
 msgid "Pagination"
 msgstr "分页"
 
-#: wp-includes/media.php:4643 wp-includes/js/dist/block-library.js:23604
+#: wp-includes/media.php:4649 wp-includes/js/dist/block-library.js:23604
 #: wp-includes/js/dist/block-library.js:23605
 msgid "Edit image"
 msgstr "编辑图片"
@@ -6413,7 +6738,7 @@ msgstr "已复制！"
 msgid "Submit for Review"
 msgstr "提交复审"
 
-#: wp-includes/media.php:4641 wp-includes/js/dist/block-library.js:19071
+#: wp-includes/media.php:4647 wp-includes/js/dist/block-library.js:19071
 msgid "Replace image"
 msgstr "更换图片"
 
@@ -6876,7 +7201,7 @@ msgstr "用户ID"
 msgid "WordPress User"
 msgstr "WordPress用户"
 
-#: wp-includes/media.php:5165
+#: wp-includes/media.php:5171
 msgid "WordPress Media"
 msgstr "WordPress媒体"
 
@@ -7033,7 +7358,7 @@ msgstr "将结果集限制为用户中的所有作者。"
 msgid "Sorry, you are not allowed to query users by this parameter."
 msgstr "抱歉，您不能用此参数查询用户。"
 
-#: wp-includes/media.php:4597
+#: wp-includes/media.php:4603
 #: wp-admin/includes/class-wp-media-list-table.php:160
 msgctxt "media items"
 msgid "Mine"
@@ -7355,6 +7680,10 @@ msgstr ""
 "祝好，\n"
 "###SITENAME###全体成员敬上\n"
 "###SITEURL###"
+
+#: wp-includes/user.php:3651
+msgid "<strong>Error:</strong> The email address is already used."
+msgstr "<strong>错误：</strong>此电子邮箱地址已被使用。"
 
 #: wp-includes/class-wp-taxonomy.php:640
 msgid "&larr; Go to Categories"
@@ -7755,7 +8084,7 @@ msgstr ""
 msgid "User cannot be added to this site."
 msgstr "用户未能被加入此站点。"
 
-#: wp-includes/load.php:1642
+#: wp-includes/load.php:1648
 msgid "Scrape key check failed. Please try again."
 msgstr "Scrape key 检查失败，请重试。"
 
@@ -7831,7 +8160,7 @@ msgid "Time to add some links! Click &#8220;%s&#8221; to start putting pages, ca
 msgstr "是时候加入一些链接了！点击“%s”来将页面、分类和自定义链接加入您的菜单。想加入多少就能加入多少。"
 
 #: wp-includes/customize/class-wp-customize-media-control.php:252
-#: wp-includes/media.php:4646
+#: wp-includes/media.php:4652
 msgid "Choose image"
 msgstr "选择图片"
 
@@ -8170,7 +8499,7 @@ msgctxt "label for button in the audio widget"
 msgid "Add Audio"
 msgstr "添加音频"
 
-#: wp-includes/media.php:4156 wp-admin/includes/media.php:3293
+#: wp-includes/media.php:4162 wp-admin/includes/media.php:3293
 msgid "(no author)"
 msgstr "（无作者）"
 
@@ -8448,7 +8777,7 @@ msgstr "特色图片"
 msgid "%1$s is deprecated. The callback from %2$s is used instead."
 msgstr "%1$s已被弃用。请给%2$s提供一个回调函数。"
 
-#: wp-includes/media.php:4601
+#: wp-includes/media.php:4607
 msgid ""
 "You are about to permanently delete these items from your site.\n"
 "This action cannot be undone.\n"
@@ -8458,7 +8787,7 @@ msgstr ""
 "此操作无法撤消。\n"
 "按“取消”可取消，按“确定”可确认删除。"
 
-#: wp-includes/media.php:4600
+#: wp-includes/media.php:4606
 msgid ""
 "You are about to permanently delete this item from your site.\n"
 "This action cannot be undone.\n"
@@ -8469,7 +8798,7 @@ msgstr ""
 "按“取消”可取消，按“确定”可确认删除。"
 
 #. translators: 1: Suggested width number, 2: Suggested height number.
-#: wp-includes/media-template.php:296 wp-includes/media.php:4653
+#: wp-includes/media-template.php:296 wp-includes/media.php:4659
 msgid "Suggested image dimensions: %1$s by %2$s pixels."
 msgstr "建议的图片尺寸：%1$s x %2$s像素。"
 
@@ -9940,7 +10269,7 @@ msgstr "内容哈希与期望值不匹配。"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:1005
 msgid "Invalid Content-Disposition supplied. Content-Disposition needs to be formatted as `attachment; filename=\"image.png\"` or similar."
-msgstr "提供的Content-Disposition标头值无效。Content-Disposition标头值格式应为`attachment; filename=\"image.png\"`或类似内容。"
+msgstr "提供的 Content-Disposition 标头值无效。Content-Disposition 标头值格式应为 `attachment; filename=\"image.png\"` 或类似内容。"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:995
 msgid "No Content-Disposition supplied."
@@ -10112,7 +10441,7 @@ msgstr "和您在同一个时区的城市。"
 msgid "Site title."
 msgstr "站点标题。"
 
-#: wp-includes/media.php:4613
+#: wp-includes/media.php:4619
 msgid "Search media items..."
 msgstr "搜索媒体项目…"
 
@@ -10677,7 +11006,7 @@ msgstr "链接已选择。"
 msgid "%s is required to strip image meta."
 msgstr "需要%s来去除图片元数据。"
 
-#: wp-includes/media.php:4616
+#: wp-includes/media.php:4622
 msgid "No media items found."
 msgstr "未找到媒体项目。"
 
@@ -10721,6 +11050,15 @@ msgstr "您的会话已过期，请登录来继续您的工作。"
 msgctxt "user dropdown"
 msgid "%1$s (%2$s)"
 msgstr "%1$s（%2$s）"
+
+#. translators: %s: Email address.
+#: wp-includes/user.php:251
+msgid "<strong>Error:</strong> The password you entered for the email address %s is incorrect."
+msgstr "<strong>错误：</strong>您为电子邮箱地址 %s 输入的密码不正确。"
+
+#: wp-includes/user.php:216
+msgid "<strong>Error:</strong> The email field is empty."
+msgstr "<strong>错误：</strong>电子邮箱地址字段为空。"
 
 #: wp-includes/taxonomy.php:576
 msgid "Unregistering a built-in taxonomy is not allowed."
@@ -10778,6 +11116,10 @@ msgctxt "post password form"
 msgid "Enter"
 msgstr "提交"
 
+#: wp-includes/pluggable.php:619
+msgid "<strong>Error:</strong> Invalid username, email address or incorrect password."
+msgstr "<strong>错误：</strong>用户名、电子邮箱地址无效或密码错误。"
+
 #. translators: 1: Blog name, 2: Separator (raquo), 3: Term name, 4: Taxonomy
 #. singular name.
 #: wp-includes/general-template.php:3152
@@ -10820,6 +11162,22 @@ msgstr "%s不可用"
 #: wp-includes/customize/class-wp-customize-partial.php:226
 msgid "Partial render must echo the content or return the content string (or array), but not both."
 msgstr "部分渲染必须只回显主题或返回内容字符串（或数组）中的一个。"
+
+#: wp-includes/comment.php:1284
+msgid "<strong>Error:</strong> Your comment is too long."
+msgstr "<strong>错误：</strong>您的评论过长。"
+
+#: wp-includes/comment.php:1280
+msgid "<strong>Error:</strong> Your URL is too long."
+msgstr "<strong>错误：</strong>您的 URL 过长。"
+
+#: wp-includes/comment.php:1276
+msgid "<strong>Error:</strong> Your email address is too long."
+msgstr "<strong>错误：</strong>您输入的电子邮箱地址过长。"
+
+#: wp-includes/comment.php:1272
+msgid "<strong>Error:</strong> Your name is too long."
+msgstr "<strong>错误：</strong>您的名字过长。"
 
 #: wp-includes/comment.php:262
 msgctxt "comment status"
@@ -10884,6 +11242,10 @@ msgstr "按住Shift点击来编辑这个元素。"
 msgid "Comment Submission Failure"
 msgstr "评论提交失败"
 
+#: wp-includes/user.php:3333 wp-admin/includes/user.php:196
+msgid "<strong>Error:</strong> Sorry, that username is not allowed."
+msgstr "<strong>错误：</strong>此用户名不被允许。"
+
 #: wp-includes/rest-api/class-wp-rest-request.php:914
 msgid "Invalid parameter."
 msgstr "无效参数。"
@@ -10904,6 +11266,11 @@ msgstr "（当前设置为：%s）"
 #: wp-includes/functions.php:5823
 msgid "Please see <a href=\"%s\">Debugging in WordPress</a> for more information."
 msgstr "请查阅<a href=\"%s\">调试WordPress</a>来获取更多信息。"
+
+#. translators: 1: $table_prefix, 2: wp-config.php
+#: wp-includes/load.php:628
+msgid "<strong>Error:</strong> %1$s in %2$s can only contain numbers, letters, and underscores."
+msgstr "<strong>错误：</strong>%2$s 中的 %1$s 只能包含数字、字母和下划线。"
 
 #. translators: %s: WP_User->ID
 #: wp-includes/class-wp-user.php:278 wp-includes/class-wp-user.php:311
@@ -11142,6 +11509,11 @@ msgstr "标签云未被显示，因为不存在支持标签云小工具的分类
 msgid "Nicename may not be longer than 50 characters."
 msgstr "昵称不能长于50个字符。"
 
+#. translators: %s: User name.
+#: wp-includes/user.php:179
+msgid "<strong>Error:</strong> The password you entered for the username %s is incorrect."
+msgstr "<strong>错误：</strong>为用户名 %s 指定的密码不正确。"
+
 #: wp-includes/class-wp-taxonomy.php:637
 msgid "Categories list"
 msgstr "分类列表"
@@ -11273,7 +11645,7 @@ msgid "Usernames can only contain lowercase letters (a-z) and numbers."
 msgstr "用户名只能包含小写字母（a-z）和数字。"
 
 #. translators: %s: Playlist item title.
-#: wp-includes/media.php:2631 wp-includes/media.php:2648
+#: wp-includes/media.php:2637 wp-includes/media.php:2654
 msgctxt "playlist item title"
 msgid "&#8220;%s&#8221;"
 msgstr "“%s”"
@@ -11490,6 +11862,12 @@ msgstr "抱歉，您不能在此站点上编辑主题选项。"
 #: wp-includes/class-wp-query.php:1881 wp-includes/class-wp-user-query.php:399
 msgid "%1$s is deprecated. Use %2$s instead."
 msgstr "%1$s已被废弃，请改用%2$s。"
+
+#. translators: 1: Post type, 2: Capability name.
+#: wp-includes/capabilities.php:114 wp-includes/capabilities.php:215
+#: wp-includes/capabilities.php:314 wp-includes/capabilities.php:395
+msgid "The post type %1$s is not registered, so it may not be reliable to check the capability %2$s against a post of that type."
+msgstr "文章类型 %1$s 未被注册，所以可能无法可靠地检查该类型文章的 %2$s 能力。"
 
 #: wp-includes/class-wp-customize-nav-menus.php:1167
 #: wp-includes/class-wp-customize-widgets.php:910
@@ -12179,6 +12557,11 @@ msgstr "自定义链接"
 msgid "<strong>Could not find site %1$s.</strong> Searched for table %2$s in database %3$s. Is that right?"
 msgstr "<strong>无法找到站点%1$s。</strong>在数据库%3$s中搜索了数据表%2$s，这对吗？"
 
+#. translators: %s: Table name.
+#: wp-includes/ms-load.php:480
+msgid "<strong>Database tables are missing.</strong> This means that your host&#8217;s database server is not running, WordPress was not installed properly, or someone deleted %s. You really should look at your database now."
+msgstr "<strong>数据库表缺失。</strong>这意味着您主机上的数据库服务器未在运行、WordPress未被正确安装，或有人删除了 %s 表。您需要立即检查您的数据库。"
+
 #. translators: Do not translate USERNAME, PASSWORD, LOGINLINK, SITE_NAME:
 #. those are placeholders.
 #: wp-includes/ms-functions.php:2333
@@ -12243,7 +12626,7 @@ msgstr ""
 "\n"
 "——SITE_NAME团队"
 
-#: wp-includes/media.php:4579
+#: wp-includes/media.php:4585
 msgid "Drag and drop to reorder media files."
 msgstr "拖放来重新排序媒体文件。"
 
@@ -12419,7 +12802,7 @@ msgstr "评论：%s"
 msgid "URL: %s"
 msgstr "URL：%s"
 
-#: wp-includes/media.php:4598
+#: wp-includes/media.php:4604
 msgctxt "noun"
 msgid "Trash"
 msgstr "回收站"
@@ -12626,7 +13009,7 @@ msgstr "链接"
 msgid "<strong>You have successfully updated WordPress!</strong> Please log back in to see what&#8217;s new."
 msgstr "<strong>WordPress升级成功！</strong>请重新登录以查看更新详情。"
 
-#: wp-includes/media.php:4602
+#: wp-includes/media.php:4608
 msgid ""
 "You are about to trash these items.\n"
 "  'Cancel' to stop, 'OK' to delete."
@@ -12638,7 +13021,7 @@ msgstr ""
 msgid "Press return or enter to open this panel"
 msgstr "按回车键以展开此面板"
 
-#: wp-includes/media.php:4603
+#: wp-includes/media.php:4609
 msgid "Bulk select"
 msgstr "批量选择"
 
@@ -12657,29 +13040,29 @@ msgstr "（无标签）"
 msgid "This site is no longer available."
 msgstr "该站点已不再可用。"
 
-#: wp-includes/media.php:4612
+#: wp-includes/media.php:4618
 msgid "Search media"
 msgstr "搜索媒体"
 
-#: wp-includes/media.php:4610
+#: wp-includes/media.php:4616
 #: wp-admin/includes/class-wp-media-list-table.php:279
 msgid "Filter by type"
 msgstr "按类型筛选"
 
-#: wp-includes/class-wp-post-type.php:853 wp-includes/media.php:4609
+#: wp-includes/class-wp-post-type.php:853 wp-includes/media.php:4615
 msgid "Filter by date"
 msgstr "按日期筛选"
 
-#: wp-includes/media.php:4593 wp-admin/includes/class-wp-list-table.php:727
+#: wp-includes/media.php:4599 wp-admin/includes/class-wp-list-table.php:727
 #: wp-admin/includes/media.php:2833
 msgid "All dates"
 msgstr "全部日期"
 
-#: wp-includes/media.php:2997
+#: wp-includes/media.php:3003
 msgid "Bitrate Mode"
 msgstr "比特率模式"
 
-#: wp-includes/media.php:2996
+#: wp-includes/media.php:3002
 msgid "Bitrate"
 msgstr "比特率"
 
@@ -12769,6 +13152,10 @@ msgstr "小工具是与内容独立的区域，可被放在您的主题专为小
 msgid "You are customizing %s"
 msgstr "您正在自定义%s"
 
+#: wp-includes/comment.php:3648
+msgid "<strong>Error:</strong> The comment could not be saved. Please try again later."
+msgstr "<strong>错误：</strong>评论未被保存，请稍候再试。"
+
 #: wp-includes/update.php:208 wp-includes/update.php:446
 #: wp-includes/update.php:727 wp-admin/includes/plugin-install.php:182
 #: wp-admin/includes/theme.php:567 wp-admin/includes/translation-install.php:67
@@ -12793,56 +13180,66 @@ msgstr "如果您想从 Microsoft Word 粘贴内容并保持原样，请尝试�
 msgid "Keyboard Shortcuts"
 msgstr "键盘快捷键"
 
-#: wp-includes/media.php:4678
+#. translators: %s: Browser cookie documentation URL.
+#: wp-login.php:1250
+msgid "<strong>Error:</strong> Cookies are blocked or not supported by your browser. You must <a href=\"%s\">enable cookies</a> to use WordPress."
+msgstr "<strong>错误：</strong>Cookies被阻止或者您的浏览器不支持。要使用WordPress，您必须<a href=\"%s\">启用cookies</a>。"
+
+#. translators: 1: Browser cookie documentation URL, 2: Support forums URL.
+#: wp-login.php:1239
+msgid "<strong>Error:</strong> Cookies are blocked due to unexpected output. For help, please see <a href=\"%1$s\">this documentation</a> or try the <a href=\"%2$s\">support forums</a>."
+msgstr "<strong>错误：</strong>Cookies因预料之外的输出被阻止。要获取帮助，请参见<a href=\"%1$s\">此文档</a>或访问<a href=\"%2$s\">支持论坛</a>。"
+
+#: wp-includes/media.php:4684
 msgid "Add to Audio Playlist"
 msgstr "添加至音频播放列表"
 
-#: wp-includes/media.php:4677
+#: wp-includes/media.php:4683
 msgid "Add to audio playlist"
 msgstr "添加至音频播放列表"
 
-#: wp-includes/media.php:4676
+#: wp-includes/media.php:4682
 msgid "Update audio playlist"
 msgstr "更新音频播放列表"
 
-#: wp-includes/media.php:4675
+#: wp-includes/media.php:4681
 msgid "Insert audio playlist"
 msgstr "插入音频播放列表"
 
-#: wp-includes/media.php:4674
+#: wp-includes/media.php:4680
 msgid "&#8592; Cancel audio playlist"
 msgstr "&#8592; 取消音频播放列表"
 
-#: wp-includes/media.php:4673
+#: wp-includes/media.php:4679
 msgid "Edit audio playlist"
 msgstr "编辑音频播放列表"
 
-#: wp-includes/media.php:4654
+#: wp-includes/media.php:4660
 msgid "There has been an error cropping your image."
 msgstr "裁剪您的图片时发生错误。"
 
-#: wp-includes/media.php:2994
+#: wp-includes/media.php:3000
 msgctxt "video or audio"
 msgid "Length"
 msgstr "长度"
 
 #: wp-includes/customize/class-wp-customize-date-time-control.php:151
-#: wp-includes/media.php:2993 wp-includes/js/dist/block-library.js:2380
+#: wp-includes/media.php:2999 wp-includes/js/dist/block-library.js:2380
 #: wp-includes/js/dist/components.js:51956 wp-admin/includes/template.php:833
 msgid "Year"
 msgstr "年"
 
-#: wp-includes/media.php:2992
+#: wp-includes/media.php:2998
 msgid "Genre"
 msgstr "流派"
 
 #: wp-includes/media-template.php:494 wp-includes/media-template.php:725
-#: wp-includes/media.php:2988
+#: wp-includes/media.php:2994
 msgid "Album"
 msgstr "相册"
 
 #: wp-includes/media-template.php:493 wp-includes/media-template.php:724
-#: wp-includes/media.php:2987
+#: wp-includes/media.php:2993
 msgid "Artist"
 msgstr "艺术家"
 
@@ -12931,7 +13328,7 @@ msgctxt "auto preload"
 msgid "Auto"
 msgstr "自动"
 
-#: wp-includes/media.php:4651
+#: wp-includes/media.php:4657
 msgid "Cropping&hellip;"
 msgstr "裁剪中&hellip;"
 
@@ -13183,104 +13580,104 @@ msgstr "查询参数%s必须有占位符。"
 msgid "Invalid menu ID."
 msgstr "菜单ID无效。"
 
-#: wp-includes/media.php:4688
+#: wp-includes/media.php:4694
 msgid "Add to video Playlist"
 msgstr "添加至视频播放列表"
 
-#: wp-includes/media.php:4687
+#: wp-includes/media.php:4693
 msgid "Add to video playlist"
 msgstr "添加至视频播放列表"
 
-#: wp-includes/media.php:4686
+#: wp-includes/media.php:4692
 msgid "Update video playlist"
 msgstr "更新视频播放列表"
 
-#: wp-includes/media.php:4685
+#: wp-includes/media.php:4691
 msgid "Insert video playlist"
 msgstr "插入视频播放列表"
 
-#: wp-includes/media.php:4684
+#: wp-includes/media.php:4690
 msgid "&#8592; Cancel video playlist"
 msgstr "&#8592; 取消视频播放列表"
 
-#: wp-includes/media.php:4683
+#: wp-includes/media.php:4689
 msgid "Edit video playlist"
 msgstr "编辑视频播放列表"
 
-#: wp-includes/media.php:4682
+#: wp-includes/media.php:4688
 msgid "Create video playlist"
 msgstr "创建视频播放列表"
 
-#: wp-includes/media.php:4681
+#: wp-includes/media.php:4687
 msgid "Drag and drop to reorder videos."
 msgstr "拖放来排序视频。"
 
-#: wp-includes/media.php:4672
+#: wp-includes/media.php:4678
 msgid "Create audio playlist"
 msgstr "创建音频播放列表"
 
-#: wp-includes/media.php:4671
+#: wp-includes/media.php:4677
 msgid "Drag and drop to reorder tracks."
 msgstr "拖放来排序曲目。"
 
-#: wp-includes/media.php:4668
+#: wp-includes/media.php:4674
 msgid "Add subtitles"
 msgstr "添加字幕"
 
-#: wp-includes/media.php:4665
+#: wp-includes/media.php:4671
 msgid "Add video source"
 msgstr "添加视频源"
 
-#: wp-includes/media.php:4664
+#: wp-includes/media.php:4670
 msgid "Replace video"
 msgstr "替换视频"
 
-#: wp-includes/media.php:4663
+#: wp-includes/media.php:4669
 msgid "Video details"
 msgstr "视频详情"
 
-#: wp-includes/media.php:4659
+#: wp-includes/media.php:4665
 msgid "Add audio source"
 msgstr "添加音频源"
 
-#: wp-includes/media.php:4658
+#: wp-includes/media.php:4664
 msgid "Replace audio"
 msgstr "替换音频"
 
-#: wp-includes/media.php:4657
+#: wp-includes/media.php:4663
 msgid "Audio details"
 msgstr "音频详情"
 
-#: wp-includes/media.php:4650
+#: wp-includes/media.php:4656
 msgid "Crop your image"
 msgstr "裁剪您的图片"
 
-#: wp-includes/media.php:4649
+#: wp-includes/media.php:4655
 msgid "Crop image"
 msgstr "裁剪图片"
 
-#: wp-includes/media.php:4648
+#: wp-includes/media.php:4654
 msgid "Skip cropping"
 msgstr "跳过裁剪"
 
-#: wp-includes/media.php:4647
+#: wp-includes/media.php:4653
 msgid "Select and crop"
 msgstr "选择并裁剪"
 
-#: wp-includes/media.php:4642 wp-includes/media.php:4660
-#: wp-includes/media.php:4666
+#: wp-includes/media.php:4648 wp-includes/media.php:4666
+#: wp-includes/media.php:4672
 msgid "Cancel edit"
 msgstr "取消编辑"
 
-#: wp-includes/media.php:4640
+#: wp-includes/media.php:4646
 msgid "Image details"
 msgstr "图片详情"
 
-#: wp-includes/media.php:4590
+#: wp-includes/media.php:4596
 msgid "Create a new video playlist"
 msgstr "创建新的视频播放列表"
 
-#: wp-includes/media.php:4589
+#: wp-includes/media.php:4595
 msgid "Create a new playlist"
 msgstr "创建新的播放列表"
 
@@ -13290,7 +13687,7 @@ msgstr "创建新的播放列表"
 #: wp-includes/class-wp-customize-widgets.php:894
 #: wp-includes/customize/class-wp-customize-nav-menus-panel.php:72
 #: wp-includes/customize/class-wp-customize-themes-panel.php:70
-#: wp-includes/media.php:4572 wp-includes/js/dist/components.js:57427
+#: wp-includes/media.php:4578 wp-includes/js/dist/components.js:57427
 #: wp-includes/js/dist/edit-post.js:3975 wp-includes/js/dist/edit-post.js:5366
 #: wp-includes/js/dist/edit-site.js:12409 wp-admin/includes/ms.php:49
 #: wp-admin/theme-install.php:61
@@ -13430,7 +13827,7 @@ msgstr "匹配大小写"
 msgid "Find and replace"
 msgstr "查找和替换"
 
-#: wp-includes/media-template.php:1230 wp-includes/media.php:4570
+#: wp-includes/media-template.php:1230 wp-includes/media.php:4576
 #: wp-includes/js/dist/block-editor.js:48133
 #: wp-includes/js/dist/block-library.js:13133
 #: wp-includes/js/dist/block-library.js:40538
@@ -13925,6 +14322,11 @@ msgstr "登录地址（URL）"
 msgid "The web browser on your device cannot be used to upload files. You may be able to use the <a href=\"%s\">native app for your device</a> instead."
 msgstr "您设备上的网页浏览器不能上传文件。但是您可以通过<a href=\"%s\">适合您设备的原生app</a>来上传文件。"
 
+#. translators: %s: Admin email address.
+#: wp-includes/user.php:3396
+msgid "<strong>Error:</strong> Could not register you&hellip; please contact the <a href=\"mailto:%s\">site admin</a>!"
+msgstr "<strong>错误：</strong>无法完成您的注册请求&hellip;请联系<a href=\"mailto:%s\">站点管理员</a>！"
+
 #: wp-includes/post-template.php:308
 msgid "(more&hellip;)"
 msgstr "（更多&hellip;）"
@@ -14001,14 +14403,14 @@ msgstr "用户ID无效。"
 msgid "Random Order"
 msgstr "随机顺序"
 
-#: wp-includes/media.php:4623 wp-includes/js/dist/block-editor.js:48791
+#: wp-includes/media.php:4629 wp-includes/js/dist/block-editor.js:48791
 msgid "Insert from URL"
 msgstr "从URL插入"
 
 #. translators: This is a would-be plural string used in the media manager. If
 #. there is not a word you can use in your language to avoid issues with the
 #. lack of plural support here, turn it into "selected: %d" then translate it.
-#: wp-includes/media.php:4578
+#: wp-includes/media.php:4584
 msgid "%d selected"
 msgstr "已选%d个"
 
@@ -14017,7 +14419,7 @@ msgctxt "Links widget"
 msgid "Random"
 msgstr "随机"
 
-#: wp-includes/media-template.php:1479 wp-includes/media.php:4594
+#: wp-includes/media-template.php:1479 wp-includes/media.php:4600
 #: wp-admin/includes/ajax-actions.php:2228
 #: wp-admin/includes/ajax-actions.php:3870
 #: wp-admin/includes/class-wp-list-table.php:339
@@ -14025,7 +14427,7 @@ msgstr "随机"
 msgid "No items found."
 msgstr "找不到条目。"
 
-#: wp-includes/media.php:4637
+#: wp-includes/media.php:4643
 msgid "Reverse order"
 msgstr "反转顺序"
 
@@ -14034,7 +14436,7 @@ msgid "Deselect"
 msgstr "取消选择"
 
 #: wp-includes/media-template.php:543 wp-includes/media-template.php:696
-#: wp-includes/media.php:4606
+#: wp-includes/media.php:4612
 #: wp-admin/includes/class-wp-comments-list-table.php:380
 #: wp-admin/includes/class-wp-media-list-table.php:183
 #: wp-admin/includes/class-wp-media-list-table.php:188
@@ -14055,7 +14457,7 @@ msgstr "忽略错误"
 msgid "Uploading"
 msgstr "正上传"
 
-#: wp-includes/media.php:3874
+#: wp-includes/media.php:3880
 msgid "No editor could be selected."
 msgstr "无可选编辑器。"
 
@@ -14111,7 +14513,7 @@ msgstr "音频"
 msgid "Uploaded to this post"
 msgstr "上传到本文章的"
 
-#: wp-includes/media.php:4592
+#: wp-includes/media.php:4598
 #: wp-admin/includes/class-wp-media-list-table.php:132
 msgid "All media items"
 msgstr "所有多媒体项目"
@@ -14144,7 +14546,7 @@ msgstr "附件详情"
 #. translators: %s: Digit to indicate multiple of sizing, eg. 2X-Large.
 #: wp-includes/block-editor.php:172 wp-includes/class-wp-theme-json.php:3080
 #: wp-includes/media-template.php:860 wp-includes/media-template.php:940
-#: wp-includes/media-template.php:1131 wp-includes/media.php:4204
+#: wp-includes/media-template.php:1131 wp-includes/media.php:4210
 #: wp-includes/js/dist/block-editor.js:3709
 #: wp-includes/js/dist/block-library.js:48187
 #: wp-admin/includes/class-custom-background.php:607
@@ -14152,11 +14554,11 @@ msgstr "附件详情"
 msgid "Large"
 msgstr "大"
 
-#: wp-includes/media.php:4632
+#: wp-includes/media.php:4638
 msgid "&#8592; Cancel gallery"
 msgstr "&#8592; 取消相册"
 
-#: wp-includes/media.php:4583
+#: wp-includes/media.php:4589
 msgid "Upload images"
 msgstr "上传图片"
 
@@ -14172,11 +14574,11 @@ msgstr "附件显示设置"
 msgid "WordPress &rsaquo; Success"
 msgstr "WordPress &rsaquo; 成功"
 
-#: wp-includes/media.php:4582
+#: wp-includes/media.php:4588
 msgid "Upload files"
 msgstr "上传文件"
 
-#: wp-includes/media.php:4633 wp-admin/includes/media.php:2669
+#: wp-includes/media.php:4639 wp-admin/includes/media.php:2669
 msgid "Insert gallery"
 msgstr "插入相册"
 
@@ -14186,11 +14588,11 @@ msgstr "插入相册"
 msgid "Drop files to upload"
 msgstr "拖文件至此可上传"
 
-#: wp-includes/media.php:4630
+#: wp-includes/media.php:4636
 msgid "Create gallery"
 msgstr "创建相册"
 
-#: wp-includes/media.php:4586 wp-includes/js/dist/block-editor.js:48819
+#: wp-includes/media.php:4592 wp-includes/js/dist/block-editor.js:48819
 #: wp-admin/includes/media.php:21 wp-admin/upload.php:80
 #: wp-admin/upload.php:220
 msgid "Media Library"
@@ -14271,9 +14673,13 @@ msgstr "附件页面"
 msgid "Link To"
 msgstr "链接到"
 
-#: wp-includes/media.php:4634
+#: wp-includes/media.php:4640
 msgid "Update gallery"
 msgstr "更新相册"
+
+#: wp-includes/user.php:3327 wp-admin/includes/user.php:189
+msgid "<strong>Error:</strong> This username is already registered. Please choose another one."
+msgstr "<strong>错误：</strong>该用户名已被注册，请再选择一个。"
 
 #: wp-includes/ms-functions.php:491 wp-admin/user-new.php:363
 msgid "Please enter a valid email address."
@@ -14339,7 +14745,7 @@ msgstr "未能将项目关系加入数据库。"
 msgid "Clear"
 msgstr "清除"
 
-#: wp-includes/media.php:4635 wp-includes/media.php:4636
+#: wp-includes/media.php:4641 wp-includes/media.php:4642
 msgid "Add to gallery"
 msgstr "添加至相册"
 
@@ -14347,7 +14753,7 @@ msgstr "添加至相册"
 msgid "Insert into post"
 msgstr "插入至文章"
 
-#: wp-includes/media.php:4588
+#: wp-includes/media.php:4594
 msgid "Create a new gallery"
 msgstr "创建新相册"
 
@@ -14562,7 +14968,7 @@ msgstr "允许的文件"
 #: wp-includes/customize/class-wp-customize-media-control.php:249
 #: wp-includes/customize/class-wp-customize-media-control.php:259
 #: wp-includes/customize/class-wp-customize-nav-menu-item-control.php:158
-#: wp-includes/media-template.php:576 wp-includes/media.php:4571
+#: wp-includes/media-template.php:576 wp-includes/media.php:4577
 #: wp-includes/js/dist/block-library.js:54484
 #: wp-includes/js/dist/edit-post.js:393
 #: wp-admin/includes/class-walker-nav-menu-edit.php:287
@@ -14980,6 +15386,14 @@ msgstr "%s超过了站点的最大上传限制。"
 #: wp-includes/admin-bar.php:194
 msgid "Feedback"
 msgstr "反馈"
+
+#: wp-includes/comment.php:3634
+msgid "<strong>Error:</strong> Please type your comment text."
+msgstr "<strong>错误：</strong>请输入您的评论文本。"
+
+#: wp-includes/comment.php:3606
+msgid "<strong>Error:</strong> Please enter a valid email address."
+msgstr "<strong>错误：</strong>请输入有效的电子邮箱地址。"
 
 #: wp-includes/admin-bar.php:174
 msgid "Documentation"
@@ -15452,6 +15866,13 @@ msgstr "%1$s自豪地采用%2$s构建"
 msgid "&#8220;%s&#8221;"
 msgstr "&#8220;%s&#8221;"
 
+#. translators: %s: Number of comments.
+#: wp-includes/blocks/comments-title.php:59
+#: wp-includes/js/dist/block-library.js:11357
+msgid "%s response"
+msgid_plural "%s responses"
+msgstr[0] "%s 条回复"
+
 #: wp-includes/blocks/comments-title.php:55
 #: wp-includes/js/dist/block-library.js:11353
 msgid "One response"
@@ -15575,6 +15996,10 @@ msgstr "页面"
 msgctxt "post type general name"
 msgid "Posts"
 msgstr "文章"
+
+#: wp-includes/user.php:3324 wp-admin/includes/user.php:185
+msgid "<strong>Error:</strong> This username is invalid because it uses illegal characters. Please enter a valid username."
+msgstr "<strong>错误：</strong>此用户名包含无效字符，请输入有效的用户名。"
 
 #. translators: %s: Asterisk symbol (*).
 #: wp-includes/general-template.php:5199
@@ -15937,6 +16362,11 @@ msgstr "导航菜单"
 msgid "Taxonomy:"
 msgstr "分类法："
 
+#. translators: %s is the search term.
+#: wp-includes/blocks/query-title.php:47
+msgid "Search results for: \"%s\""
+msgstr "“%s”的搜索结果"
+
 #. translators: %s: Post title.
 #: wp-includes/blocks/comments-title.php:41
 #: wp-includes/theme-compat/comments.php:38
@@ -16191,6 +16621,10 @@ msgstr "表单中有错误，请修正后再试。"
 msgid "Email&nbsp;Address:"
 msgstr "电子邮箱地址："
 
+#: wp-signup.php:280
+msgid "(Must be at least 4 characters, lowercase letters and numbers only.)"
+msgstr "（至少4个字符，只能使用数字和字母。）"
+
 #: wp-signup.php:212
 msgid "Privacy:"
 msgstr "私密性："
@@ -16237,6 +16671,15 @@ msgstr "获取新密码"
 msgid "Lost Password"
 msgstr "忘记密码"
 
+#: wp-includes/user.php:3341 wp-includes/user.php:3639
+#: wp-admin/includes/user.php:203
+msgid "<strong>Error:</strong> The email address is not correct."
+msgstr "<strong>错误：</strong>电子邮箱地址不正确。"
+
+#: wp-includes/user.php:3339
+msgid "<strong>Error:</strong> Please type your email address."
+msgstr "<strong>错误：</strong>请输入您的电子邮箱地址。"
+
 #: wp-includes/user.php:2950 wp-includes/user.php:2954
 #: wp-includes/user.php:2960 wp-includes/user.php:2986
 #: wp-includes/user.php:2995 wp-includes/user.php:2999
@@ -16253,9 +16696,19 @@ msgstr "[%s] 密码重设"
 msgid "Password reset is not allowed for this user"
 msgstr "不能重设该用户的密码"
 
+#: wp-includes/user.php:3044
+msgid "<strong>Error:</strong> Please enter a username or email address."
+msgstr "<strong>错误：</strong>请输入用户名或电子邮箱地址。"
+
 #: wp-login.php:152
 msgid "Powered by WordPress"
 msgstr "基于WordPress"
+
+#. translators: 1: WordPress version number, 2: Minimum required MySQL version
+#. number.
+#: wp-includes/class-wpdb.php:3727
+msgid "<strong>Error:</strong> WordPress %1$s requires MySQL %2$s or higher"
+msgstr "<strong>错误：</strong>WordPress %1$s 需要 MySQL %2$s 以上版本"
 
 #. translators: %d: Sidebar number.
 #: wp-includes/widgets.php:182 wp-includes/widgets.php:268
@@ -16265,6 +16718,18 @@ msgstr "边栏%d"
 #: wp-includes/functions.php:7146 wp-includes/user.php:295
 msgid "Please log in again."
 msgstr "请重新登录。"
+
+#: wp-includes/user.php:506
+msgid "<strong>Error:</strong> Your account has been marked as a spammer."
+msgstr "<strong>错误：</strong>您的账户已被标记为垃圾评论账户。"
+
+#: wp-includes/user.php:141 wp-includes/user.php:220
+msgid "<strong>Error:</strong> The password field is empty."
+msgstr "<strong>错误：</strong>密码字段为空。"
+
+#: wp-includes/user.php:137
+msgid "<strong>Error:</strong> The username field is empty."
+msgstr "<strong>错误：</strong>用户名字段为空。"
 
 #: wp-includes/class-wp-theme.php:276
 msgid "Stylesheet is missing."
@@ -17173,7 +17638,7 @@ msgstr "%2$s年 %1$s"
 
 #. translators: 1: Month name, 2: 4-digit year.
 #. translators: 1: Month, 2: Year.
-#: wp-includes/general-template.php:2064 wp-includes/media.php:4491
+#: wp-includes/general-template.php:2064 wp-includes/media.php:4497
 #: wp-admin/includes/class-wp-list-table.php:742
 msgid "%1$s %2$d"
 msgstr "%2$d年%1$s"
@@ -17507,7 +17972,7 @@ msgstr "每小时一次"
 
 #: wp-includes/cron.php:547
 msgid "This argument has changed to an array to match the behavior of the other cron functions."
-msgstr "为了和其他cron计划任务函数的行为相匹配，这个参数已被改为一个数组。"
+msgstr "为了和其他 cron 计划任务函数的行为相匹配，这个参数已被改为一个数组。"
 
 #: wp-includes/comment.php:2432
 msgid "Could not update comment status."
@@ -17914,6 +18379,10 @@ msgstr "仪表盘"
 msgid "There are no options for this widget."
 msgstr "这个小工具没有提供选项。"
 
+#: wp-includes/user.php:3322 wp-admin/includes/user.php:146
+msgid "<strong>Error:</strong> Please enter a username."
+msgstr "<strong>错误：</strong>请填写用户名。"
+
 #: wp-includes/class-wp-editor.php:1326 wp-includes/media-template.php:1154
 #: wp-includes/widgets/class-wp-widget-media-image.php:78
 #: wp-includes/js/dist/block-editor.js:46094
@@ -17983,7 +18452,7 @@ msgstr "帮助"
 
 #: wp-includes/blocks/latest-comments.php:31
 #: wp-includes/blocks/latest-posts.php:72 wp-includes/blocks/rss.php:35
-#: wp-includes/media.php:4162 wp-includes/script-loader.php:1195
+#: wp-includes/media.php:4168 wp-includes/script-loader.php:1195
 #: wp-includes/widgets/class-wp-widget-recent-posts.php:114
 #: wp-includes/js/dist/block-library.js:24845
 #: wp-includes/js/dist/core-data.js:6413 wp-includes/js/dist/edit-post.js:8184
@@ -18006,7 +18475,7 @@ msgstr "编辑媒体"
 msgid "New Page"
 msgstr "新建页面"
 
-#: wp-includes/media.php:4567 wp-includes/js/dist/block-editor.js:51143
+#: wp-includes/media.php:4573 wp-includes/js/dist/block-editor.js:51143
 #: wp-includes/js/dist/block-library.js:54474
 #: wp-includes/js/dist/editor.js:5881 wp-admin/includes/template.php:1997
 #: wp-admin/nav-menus.php:905 wp-admin/plugin-editor.php:238
@@ -18106,7 +18575,7 @@ msgstr "版本"
 #: wp-includes/admin-bar.php:1122 wp-includes/admin-bar.php:1123
 #: wp-includes/blocks/search.php:23 wp-includes/blocks/search.php:24
 #: wp-includes/blocks/search.php:46 wp-includes/class-wp-editor.php:1890
-#: wp-includes/media.php:4566 wp-includes/media.php:4611
+#: wp-includes/media.php:4572 wp-includes/media.php:4617
 #: wp-includes/js/dist/block-editor.js:25902
 #: wp-includes/js/dist/block-editor.js:26981
 #: wp-includes/js/dist/block-editor.js:27105
@@ -18152,7 +18621,7 @@ msgstr "添加"
 msgid "Add or remove tags"
 msgstr "添加或移除标签"
 
-#: wp-includes/media.php:4569 wp-includes/script-loader.php:1193
+#: wp-includes/media.php:4575 wp-includes/script-loader.php:1193
 #: wp-login.php:684 wp-includes/js/dist/edit-widgets.js:3366
 #: wp-includes/js/dist/editor.js:8544 wp-admin/edit-form-comment.php:220
 #: wp-admin/edit-tag-form.php:298
@@ -18202,8 +18671,8 @@ msgstr "操作"
 
 #. translators: Default privacy policy heading.
 #: wp-includes/block-template-utils.php:165
-#: wp-includes/class-wp-editor.php:1230 wp-includes/media.php:4563
-#: wp-includes/media.php:5221 wp-includes/js/dist/block-editor.js:48734
+#: wp-includes/class-wp-editor.php:1230 wp-includes/media.php:4569
+#: wp-includes/media.php:5227 wp-includes/js/dist/block-editor.js:48734
 #: wp-includes/js/dist/blocks.js:8196 wp-includes/js/dist/core-data.js:2446
 #: wp-admin/export.php:293
 #: wp-admin/includes/class-wp-privacy-policy-content.php:505
@@ -18240,7 +18709,7 @@ msgstr "尺寸"
 
 #: wp-includes/block-editor.php:173 wp-includes/media-template.php:861
 #: wp-includes/media-template.php:941 wp-includes/media-template.php:1132
-#: wp-includes/media.php:4205 wp-includes/js/dist/block-editor.js:3712
+#: wp-includes/media.php:4211 wp-includes/js/dist/block-editor.js:3712
 #: wp-admin/includes/class-custom-background.php:608
 #: wp-admin/includes/media.php:1194
 msgid "Full Size"
@@ -18248,7 +18717,7 @@ msgstr "全尺寸"
 
 #: wp-includes/block-editor.php:171 wp-includes/class-wp-theme-json.php:3062
 #: wp-includes/media-template.php:859 wp-includes/media-template.php:939
-#: wp-includes/media-template.php:1130 wp-includes/media.php:4203
+#: wp-includes/media-template.php:1130 wp-includes/media.php:4209
 #: wp-includes/js/dist/block-editor.js:3706
 #: wp-admin/includes/class-custom-background.php:606
 #: wp-admin/includes/media.php:1192
@@ -18313,7 +18782,7 @@ msgstr "文件“%s”不存在？"
 
 #: wp-includes/block-editor.php:170 wp-includes/media-template.php:858
 #: wp-includes/media-template.php:938 wp-includes/media-template.php:1129
-#: wp-includes/media.php:4202 wp-includes/js/dist/block-editor.js:3703
+#: wp-includes/media.php:4208 wp-includes/js/dist/block-editor.js:3703
 #: wp-admin/includes/class-custom-background.php:605
 #: wp-admin/includes/image-edit.php:243 wp-admin/includes/media.php:1191
 msgid "Thumbnail"
@@ -18413,7 +18882,7 @@ msgid "Content"
 msgstr "内容"
 
 #: wp-includes/class-wp-editor.php:1179 wp-includes/class-wp-editor.php:1915
-#: wp-includes/media.php:4568 wp-includes/script-loader.php:1239
+#: wp-includes/media.php:4574 wp-includes/script-loader.php:1239
 #: wp-includes/js/dist/block-editor.js:32036
 #: wp-includes/js/dist/block-editor.js:45931
 #: wp-includes/js/dist/block-editor.js:48777
@@ -18696,7 +19165,7 @@ msgid "Comments"
 msgstr "评论"
 
 #: wp-includes/class-wp-customize-widgets.php:801
-#: wp-includes/class-wp-editor.php:1387 wp-includes/media.php:4608
+#: wp-includes/class-wp-editor.php:1387 wp-includes/media.php:4614
 #: wp-includes/js/dist/block-editor.js:32039
 #: wp-includes/js/dist/block-editor.js:45929
 #: wp-includes/js/dist/block-editor.js:48432
@@ -18809,7 +19278,7 @@ msgstr "评论"
 #: wp-includes/embed.php:1173 wp-includes/media-template.php:841
 #: wp-includes/media-template.php:1067 wp-includes/media-template.php:1190
 #: wp-includes/media-template.php:1264 wp-includes/media-template.php:1355
-#: wp-includes/media.php:4564 wp-includes/media.php:5214
+#: wp-includes/media.php:4570 wp-includes/media.php:5220
 #: wp-includes/sitemaps/class-wp-sitemaps-stylesheet.php:62
 #: wp-includes/sitemaps/class-wp-sitemaps-stylesheet.php:176
 #: wp-includes/widgets/class-wp-widget-media-image.php:113

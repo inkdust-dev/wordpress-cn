@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 6.1.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-11-10 17:53:57+0000\n"
+"PO-Revision-Date: 2022-11-11 08:37:03+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -43,6 +43,10 @@ msgstr "Asia/Shanghai"
 msgid "Continue"
 msgstr "继续"
 
+#: wp-admin/includes/theme.php:335
+msgid "Site Editor"
+msgstr "站点编辑器"
+
 #. translators: 1: Learn WordPress link.
 #: wp-admin/about.php:518
 msgid "Explore <a href=\"%s\">learn.wordpress.org</a> for tutorial videos, online workshops, courses, and lesson plans for Meetup organizers, including new features in WordPress."
@@ -52,6 +56,34 @@ msgstr "探索 <a href=\"%s\">learn.wordpress.org</a> 里提供给 Meetup 主办
 msgid "https://wordpress.org/plugins/performance-lab/"
 msgstr "https://cn.wordpress.org/plugins/performance-lab/"
 
+#. translators: %s: Link to fluid typography demo.
+#: wp-admin/about.php:185
+msgid "<a href=\"%s\">Fluid typography</a> lets you define font sizes that adapt for easy reading in any screen size."
+msgstr "<a href=\"%s\">流式排版</a> 让您定义可以在不同屏幕尺寸下轻松阅读的字体大小。"
+
+#: wp-admin/about.php:180
+msgid "More responsive text with fluid typography"
+msgstr "使用流畅排版将带来响应速度更快的文本"
+
+#: wp-admin/about.php:478
+msgid "Combine it with block locking options for even more advanced control over your blocks."
+msgstr "将此功能与区块锁定选项相结合，还可以对您的区块实现更高级的控制。"
+
+#. translators: %s: Link to content locking dev note.
+#: wp-admin/about.php:473
+msgid "Thanks to <a href=\"%s\">content-only editing settings</a>, layouts can be locked within container blocks. In a content-only block, its children are invisible to the List View and entirely uneditable. So you control the layout while your writers can focus on the content."
+msgstr "感谢 <a href=\"%s\">仅内容编辑设置</a>，布局可以锁定在容器区块中。在仅内容区块中，其子项对列表视图不可见且完全不可编辑。 因此您在控制布局的同时您的作者可以专注于内容。"
+
+#: wp-admin/about.php:468
+msgid "Content-only editing support for container blocks"
+msgstr "容器区块的仅内容编辑支持"
+
+#. translators: %s: Link to install Performance Lab plugin if permitted,
+#. otherwise link to plugin on WordPress.org.
+#: wp-admin/about.php:455
+msgid "Be among the first to get the latest improvements by adding the <a href=\"%s\">Performance Lab plugin</a> to your WordPress test site or sandbox."
+msgstr "通过将 <a href=\"%s\">性能实验室插件</a> 添加到您的 WordPress 测试站点或沙盒中，您就能第一时间获得最新改进。"
+
 #. translators: 1: REST API performance dev note, 2: Multisite performance dev
 #. note, 3: code-formatted "WP_Query" linked to dev note, 4: Block registration
 #. performance dev note, 5: Site health checks dev note; 6: code-formatted
@@ -60,11 +92,190 @@ msgstr "https://cn.wordpress.org/plugins/performance-lab/"
 msgid "WordPress 6.1 resolved more than 25 tickets dedicated to enhancing performance. From the  <a href=\"%1$s\">REST API</a> to <a href=\"%2$s\">multisite</a>, %3$s to <a href=\"%4$s\">core block registration</a>, and <a href=\"%5$s\">new Site Health checks</a> to the addition of the %6$s attribute to images, there are performance improvements for every type of site. A full breakdown can be found in the <a href=\"%7$s\">Performance Field Guide</a>."
 msgstr "WordPress 6.1 解决了超过 25 个用于提高性能的请求。从 <a href=\"%1$s\">REST API</a> 到<a href=\"%2$s\">多站点</a>，%3$s 到<a href=\"%4$s\">核心区块注册</a>，以及<a href=\"%5$s\">新的站点健康检查</a>到为图像添加 %6$s 属性，针对每种类型的网站都有性能改进。完整的分析可以在<a href=\"%7$s\">性能字段指南</a>中找到。"
 
+#: wp-admin/about.php:435
+msgid "Performance highlights"
+msgstr "性能亮点"
+
+#. translators: %s: Link to spacing presets dev note.
+#: wp-admin/about.php:419
+msgid "Save time and help avoid hard-coding a values into a theme with <a href=\"%s\">preset margin and padding values for multiple blocks</a>."
+msgstr "通过 <a href=\"%s\">为多个区块预设外边距和内边距</a>，可以节省时间并帮助避免在主题中硬编码一个值。"
+
+#: wp-admin/about.php:414
+msgid "Spacing presets for faster, consistent design"
+msgstr "间距预设带来更加快速、一致的设计"
+
+#. translators: %s: Link to theme.json filters dev note.
+#: wp-admin/about.php:401
+msgid "<a href=\"%s\">Leverage filters</a> in the Styles sidebar to control settings at all four levels of your site—core, theme, user, or block, from less to more specific."
+msgstr "<a href=\"%s\">利用样式侧边栏中的过滤器</a> 来控制您的网站所有四个层次的设置——核心、主题、用户或区块——从之前的少到现在的更具体。"
+
+#: wp-admin/about.php:396
+msgid "Filters for all your styles"
+msgstr "适用于您所有样式的过滤器"
+
+#. translators: %s: Link to query loop dev note.
+#: wp-admin/about.php:379
+msgid "<a href=\"%s\">New filters</a> let Query Block variations support custom queries for more powerful variations and advanced hierarchical post types filtering options."
+msgstr "<a href=\"%s\">新的过滤器</a> 让查询区块变体支持自定义查询，以获得更强大的变体和高级的分层文章类型筛选选项。"
+
+#: wp-admin/about.php:374
+msgid "Expanded support for Query Loop blocks"
+msgstr "扩大对查询循环区块的支持"
+
+#. translators: 1: Link to block-based template parts in classic themes dev
+#. note, 2: Folder name.
+#: wp-admin/about.php:360
+msgid "<a href=\"%1$s\">Block template parts can now be defined in classic themes</a> by adding the appropriate HTML files to the %2$s directory at the root of the theme."
+msgstr "<a href=\"%1$s\">现在可以在经典主题中定义区块模板组件</a>，只需将符合规范的 HTML 文件添加到主题根目录下 %2$s 目录中。"
+
+#: wp-admin/about.php:355
+msgid "Block template parts in classic themes"
+msgstr "在经典主题中使用区块模板组件"
+
+#. translators: %s: Link to layout support refactor dev note.
+#: wp-admin/about.php:338
+msgid "The default content dimensions provided by themes can now be overridden in the Styles Sidebar, giving site builders better control over full-width content. Developers have <a href=\"%s\">fine-grained control over these controls</a>."
+msgstr "由主题提供的默认内容尺寸现在可以在样式侧边栏中被覆盖，让站点建设者更好地控制全宽内容。开发者可以 <a href=\"%s\">对这些控件进行精细控制</a>。"
+
+#: wp-admin/about.php:333
+msgid "Continued evolution of layout options"
+msgstr "布局选项的持续进化"
+
+#. translators: %s: Link to styling elements dev note.
+#: wp-admin/about.php:320
+msgid "Updates include <a href=\"%s\">styling elements</a> like buttons, citations, and links globally; controlling hover, active, and focus states for links using theme.json (not available to control in the interface yet); and customizing outline support for blocks and elements, among other features."
+msgstr "此次更新包括了全局的<a href=\"%s\">元素样式</a>，如按钮、引文和链接；使用 theme.json 控制链接的光标悬停、活动和焦点状态（暂时无法在用户界面中控制）；以及区块和元素的自定义轮廓支持等功能。"
+
+#: wp-admin/about.php:315
+msgid "Updated interface options and features"
+msgstr "更新的界面选项和功能"
+
+#: wp-admin/about.php:302
+msgid "A new modal design offers a background blur effect, making it easier to focus on the task at hand."
+msgstr "全新的对话方块设计提供了背景模糊效果，让使用者更容易专注于手头的任务。"
+
+#. translators: %s: "General Settings" admin page title, linked to the page if
+#. the user can edit options.
+#: wp-admin/about.php:297
+msgid "The site tagline is empty by default in new sites but can be modified in %s."
+msgstr "新建站点的站点副标题将默认为空，但仍然可以在 %s 中修改。"
+
+#: wp-admin/about.php:292
+msgid "6.1 includes a new time-to-read feature showing content authors the approximate time-to-read values for pages, posts, and custom post types."
+msgstr "6.1 新增了阅读时间功能，向内容作者显示页面、文章和自定义文章类型的大致阅读时间。"
+
+#: wp-admin/about.php:291
+msgid "Other notes of interest"
+msgstr "其他值得注意的项目"
+
+#. translators: %s: Link to accessibility improvements dev note.
+#: wp-admin/about.php:278
+msgid "More than 40 improvements in accessibility include resolving focus loss problems in the editor, improving form labels and audible messages, making alternative text easier to edit, and fixing the sub-menu overlap in the expanded admin side navigation at smaller screen sizes and higher zoom levels. Learn more about <a href=\"%s\">accessibility in WordPress</a>."
+msgstr "此版本在无障碍功能方面拥有超过 40 项改进，包括解决编辑器中的焦点丢失问题，改进表单标签和可听信息，使替代文本更容易编辑，以及修复在较小的屏幕尺寸和较高的缩放级别下展开管理界面侧边导航时的子菜单重叠。进一步了解 <a href=\"%s\">WordPress 中的无障碍功能</a>。"
+
+#: wp-admin/about.php:273
+msgid "Improved admin and editor accessibility"
+msgstr "改进了管理员和编辑的无障碍支持"
+
+#. translators: %s: Link style engine dev note.
+#: wp-admin/about.php:257
+msgid "The CSS rules for margin, padding, typography, colors, and borders within the <a href=\"%s\">styles engine</a> are now all in one place, reducing time spent on layout-specific tasks and helps to generate semantic class names."
+msgstr "<a href=\"%s\">样式引擎</a> 内的外边距、内边距、排版、颜色和边框的 CSS 规则现在都集中在一个地方，可以减少花在版面布局任务上的时间，并有助于生成语义化的类名称。"
+
+#: wp-admin/about.php:252
+msgid "A streamlined style system"
+msgstr "一个精简的样式系统"
+
+#. translators: %s: Link to block editor preferences dev note.
+#: wp-admin/about.php:239
+msgid "Site Editor settings are now <a href=\"%s\">persistent for each user</a>. This means your settings will now be consistent across browsers and devices."
+msgstr "站点编辑器的设置现在是 <a href=\"%s\">为每个用户的保留</a>。这意味着您的设置现在将在不同的浏览器和设备上保持一致。"
+
+#: wp-admin/about.php:234
+msgid "Keep your Site Editor settings for later"
+msgstr "保留您的站点编辑器设置以备之后使用"
+
+#: wp-admin/about.php:219
+msgid "https://wordpress.org/themes/tags/full-site-editing/"
+msgstr "https://cn.wordpress.org/themes/tags/full-site-editing/"
+
+#. translators: %s: Link to Block Themes on WordPress.org.
+#: wp-admin/about.php:218
+msgid "The Themes Directory has <a href=\"%s\">a filter for block themes</a>, and a pattern preview gives a better sense of what the theme might look like while exploring different themes and patterns."
+msgstr "主题目录在现在已有<a href=\"%s\">区块主题过滤器</a>以及样板预览，让使用者在探索不同主题和样板时能更清楚地看到最终的呈现效果。"
+
+#: wp-admin/about.php:213
+msgid "Find block themes faster"
+msgstr "更快地找到区块主题"
+
+#: wp-admin/about.php:204
+msgid "In WordPress 6.0, when you created a new page, you would see suggested patterns so you did not have to start with a blank page. In 6.1, you will also see the starter patterns modal when you create a new instance of any post type."
+msgstr "在 WordPress 6.0中，当您创建新的页面时会看到建议的样板，而不需要从空白页面开始。在 6.1 版本中，您将能在新建任何文章类型的实例时看到入门样板配置的对话框。"
+
+#: wp-admin/about.php:203
+msgid "Add starter patterns to any post type"
+msgstr "为任何文章类型添加入门样板"
+
+#: wp-admin/about.php:174
+msgid "The List and Quote blocks now support inner blocks, allowing for more flexible and rich compositions like adding headings inside your Quote blocks."
+msgstr "列表和引用区块现在支持内部区块，能让使用者拥有更灵活及丰富的组合，例如在引用区块里添加标题。"
+
+#: wp-admin/about.php:173
+msgid "Compose richer lists and quotes with inner blocks"
+msgstr "使用内部区块以编写更丰富的列表和引文"
+
+#: wp-admin/about.php:167
+msgid "Various blocks have improved placeholders that reflect customization options to help you design your site and its content. For example, the Image block placeholder displays custom borders and duotone filters even before selecting an image."
+msgstr "各种区块都改进了能反映自定义选项以帮助您设计站点以及内容的占位符。比如图片区块占位符在选择图片之前就可以显示自定义的边框和双色调滤镜。"
+
+#: wp-admin/about.php:166
+msgid "Improved block placeholders"
+msgstr "改进的区块占位符"
+
+#: wp-admin/about.php:157
+msgid "When locking blocks, a new toggle lets you apply your lock settings to all the blocks in a containing block like the group, cover, and column blocks."
+msgstr "当锁定区块之后，一个新的开关允许您将区块锁定设置应用于诸如群组、封面和单栏的容器区块中的所有区块。"
+
+#: wp-admin/about.php:156
+msgid "One-click lock settings for all inner blocks"
+msgstr "对所有内部区块的一键锁定设置"
+
+#: wp-admin/about.php:150
+msgid "A cleaner, better-organized display helps you easily view and manage important post and page settings, especially the template picker and scheduler."
+msgstr "一个更简洁、更有条理的显示将帮助您轻松查看和管理重要的文章和页面设置，尤其是模版选择器和调度器。"
+
+#: wp-admin/about.php:149
+msgid "Improved layout and visualization of document settings"
+msgstr "经过改进的文档设置的布局和可视化"
+
+#. translators: %s: Link to navigation block fallback dev note.
+#: wp-admin/about.php:131
+msgid "<a href=\"%s\">New fallback options</a> in the navigation block mean you can edit the menu that’s open; no searching needed. Plus, the controls for choosing and working on menus have their own place in the block settings. The mobile menu system also gets an upgrade with new features, including different icon options, to make the menu yours."
+msgstr "导航区块中的 <a href=\"%s\">全新回退选项</a> 意味着您可以编辑开启的菜单，而不需要搜索。 此外，用于选择和执行菜单的控件已经在区块设置中属于自己的位置。移动版菜单系统也在新功能的加持下获得了升级，其包括不同的图标选项，以创造属于您的菜单。"
+
+#: wp-admin/about.php:126
+msgid "Menus just got easier to create and manage"
+msgstr "菜单的创建和管理变得更加容易"
+
+#. translators: %s: Link to layout support refactor dev note.
+#: wp-admin/about.php:116
+msgid "Upgrades to the <a href=\"%s\">controls for design elements and blocks</a> make the layout and site-building process more consistent, complete, and intuitive."
+msgstr "升级后的 <a href=\"%s\">设计元素和区块的控件</a> 将使得布局和站点构建更加的一致、完整以及符合直觉。"
+
+#: wp-admin/about.php:111
+msgid "More consistency and control across design tools"
+msgstr "横跨设计工具间的更多一致性和控制性"
+
 #. translators: 1: Link to template options dev note, 2: Link to template
 #. creation dev note.
 #: wp-admin/about.php:90
 msgid "<a href=\"%1$s\">New templates</a> include a custom template for posts and pages in the Site Editor. Search-and-replace tools speed up the design of <a href=\"%2$s\">template parts</a>."
 msgstr "<a href=\"%1$s\">全新的模版</a>在站点编辑器中包含了文章和页面的自定义模版。 “搜索和替换”工具加速了<a href=\"%2$s\">模版组件</a>的设计。"
+
+#: wp-admin/about.php:85
+msgid "A better creator experience with refined and additional templates"
+msgstr "通过精炼和附加的模版提供更好的创作者体验"
 
 #. translators: 1: Variation announcement post URL, 2: Accessibility-ready
 #. handbook page.
@@ -72,9 +283,62 @@ msgstr "<a href=\"%1$s\">全新的模版</a>在站点编辑器中包含了文章
 msgid "Building on the foundational elements in the 5.9 and 6.0 releases for block themes and style variations, the new default theme, Twenty Twenty-Three, includes <a href=\"%1$s\">10 different styles</a> and is &#147;<a href=\"%2$s\">Accessibility Ready</a>&#148;."
 msgstr "在 5.9 和 6.0 版本针对区块主题和样式变化的基础上，新的默认主题——二〇二三——包含了 <a href=\"%1$s\">10 种不同样式</a> 并且具备<a href=\"%2$s\">无障碍功能</a>。"
 
+#: wp-admin/about.php:69
+msgid "A new default theme powered by 10 distinct style variations"
+msgstr "拥有 10 种样式变体的全新默认主题"
+
 #: wp-admin/about.php:57
 msgid "This page highlights some of the most significant changes to the product since the May 2022 release of WordPress 6.0. You will also find resources for developers and anyone seeking a deeper understanding of WordPress."
 msgstr "此页面着重介绍自 2022 年 5 月 WordPress 发布以来的一些重大变更。您也会找到为开发者和那些希望深入了解 WordPress 的人提供的相关资源。"
+
+#: wp-admin/users.php:64
+msgid "<strong>Send password reset</strong> sends the user an email with a link to set a new password."
+msgstr "<strong>发送密码重置</strong> 将向用户发送一封带有设置新密码链接的电子邮件。"
+
+#: wp-admin/user-edit.php:819
+msgid "https://developer.wordpress.org/apis/wp-config-php/#wp-environment-type"
+msgstr "https://developer.wordpress.org/apis/wp-config-php/#wp-environment-type"
+
+#: wp-admin/upload.php:247
+msgid "<strong>Copy URL to clipboard</strong> copies the URL for the media file to your clipboard."
+msgstr "<strong>复制 URL 到剪贴板</strong> 复制媒体文件的 URL 到您的剪贴板。"
+
+#: wp-admin/upload.php:246
+msgid "<strong>View</strong> will take you to a public display page for that file."
+msgstr "<strong>查看</strong> 将带您到该文件的公开展示页面。"
+
+#: wp-admin/upload.php:245
+msgid "<strong>Delete Permanently</strong> will delete the file from the media library (as well as from any posts to which it is currently attached)."
+msgstr "<strong>永久删除</strong> 将从媒体库中删除该文件（以及任何附加了该文件的文章中）。"
+
+#: wp-admin/upload.php:244
+msgid "<strong>Edit</strong> takes you to a simple screen to edit that individual file&#8217;s metadata. You can also reach that screen by clicking on the media file name or thumbnail."
+msgstr "<strong>编辑</strong> 会把您带到一个简单的页面来编辑单独文件的元数据。您也能通过点击文件名称或缩略图来进入这个页面。"
+
+#: wp-admin/upload.php:242
+msgid "Hovering over a row reveals action links that allow you to manage media items. You can perform the following actions:"
+msgstr "将光标悬停在列表中的某一行上，将显示操作链接使得您可以管理媒体项目。您可以执行以下操作:"
+
+#: wp-admin/theme-install.php:204
+msgctxt "themes"
+msgid "Block Themes"
+msgstr "区块主题"
+
+#: wp-admin/theme-install.php:157
+msgid "<a href=\"https://wordpress.org/support/article/block-themes/\">Documentation on Block Themes</a>"
+msgstr "<a href=\"https://wordpress.org/support/article/block-themes/\">区块主题文档</a>"
+
+#: wp-admin/theme-install.php:149
+msgid "Block themes"
+msgstr "区块主题"
+
+#: wp-admin/theme-install.php:144
+msgid "With a block theme, you can place and edit blocks without affecting your content by customizing or creating new templates."
+msgstr "通过使用区块主题，您将能在不影响您的内容的情况下，通过自定义或新建模版来放置及编辑模块。"
+
+#: wp-admin/theme-install.php:143
+msgid "A block theme is a theme that uses blocks for all parts of a site including navigation menus, header, content, and site footer. These themes are built for the features that allow you to edit and customize all parts of your site."
+msgstr "区块主题是一个可以在站点的所有部分包括导航菜单、页眉、内容以及站点页脚使用区块的主题。这些主题是为了使您能够编辑和定制您的整个站点的特性而设计的。"
 
 #: wp-admin/site-health.php:259
 msgid "Recommended items are considered beneficial to your site, although not as important to prioritize as a critical issue, they may include improvements to things such as; Performance, user experience, and more."
@@ -84,10 +348,283 @@ msgstr "推荐改进项目是对您的站点有益处的项目，尽管其不像
 msgid "Critical issues are items that may have a high impact on your sites performance or security, and resolving these issues should be prioritized."
 msgstr "关键问题是那些可能对您的站点性能或安全有重大影响的项目，这些问题应当被优先解决。"
 
+#: wp-admin/site-editor.php:23 wp-admin/site-editor.php:28
+msgid "The theme you are currently using is not compatible with the Site Editor."
+msgstr "您目前使用的主题不支持站点编辑器。"
+
+#. translators: %s: wp-config.php
+#: wp-admin/setup-config.php:418
+msgid "Configuration rules for %s:"
+msgstr "%s 的配置规则："
+
+#: wp-admin/options-permalink.php:359
+msgid "Customize permalink structure by selecting available tags"
+msgstr "选择可用标签来自定义固定链接结构"
+
+#. translators: %s: %postname%
+#: wp-admin/options-permalink.php:322
+msgid "Select the permalink structure for your website. Including the %s tag makes links easy to understand, and can help your posts rank higher in search engines."
+msgstr "选择您的站点所要使用的固定链接结构。纳入 %s 标签能让链接更容易理解，也能帮助您的文章在搜索引擎中有更好的排名。"
+
+#. translators: %s: Permalink structure tag.
+#: wp-admin/options-permalink.php:313
+msgid "%s removed from permalink structure"
+msgstr "%s 已经从固定链接结构中删除"
+
 #. translators: %s: Number of critical Site Health checks.
 #: wp-admin/menu.php:383
 msgid "Site Health %s"
 msgstr "站点健康 %s"
+
+#: wp-admin/includes/file.php:24
+msgid "Theme Styles & Block Settings"
+msgstr "主题样式和区块设置"
+
+#. translators: %s: The minimum recommended PHP version.
+#: wp-admin/includes/dashboard.php:1872
+msgid "The minimum recommended version of PHP is %s."
+msgstr "PHP 的最低建议版本为 %s。"
+
+#: wp-admin/includes/dashboard.php:1867
+msgid "PHP is one of the programming languages used to build WordPress. Newer versions of PHP receive regular security updates and may increase your site&#8217;s performance."
+msgstr "PHP 是用于搭建 WordPress 的编程语言之一。较新版本的 PHP 能接受定期安全更新，也能提升您网站的性能。"
+
+#. translators: %s: The server PHP version.
+#: wp-admin/includes/dashboard.php:1852
+msgid "Your site is running on an outdated version of PHP (%s), which soon will not be supported by WordPress. Ensure that PHP is updated on your server as soon as possible. Otherwise you will not be able to upgrade WordPress."
+msgstr "您的站点正在运行过时版本的PHP （%s），其很快将不被 WordPress 所支持。请确保尽快更新您服务器上的 PHP。否则您将无法升级 WordPress。"
+
+#. translators: %s: The server PHP version.
+#: wp-admin/includes/dashboard.php:1839
+msgid "Your site is running on an outdated version of PHP (%s), which does not receive security updates and soon will not be supported by WordPress. Ensure that PHP is updated on your server as soon as possible. Otherwise you will not be able to upgrade WordPress."
+msgstr "您的站点正在运行过时版本的 PHP （%s），其无法接收安全更新，而且很快将不被 WordPress 所支持。请确保尽快更新您服务器上的 PHP。否则您将无法升级 WordPress。"
+
+#: wp-admin/includes/class-wp-site-health.php:2642
+msgid "Persistent object cache"
+msgstr "持久对象缓存"
+
+#: wp-admin/includes/class-wp-site-health.php:2635
+msgid "Page cache"
+msgstr "页面缓存"
+
+#: wp-admin/includes/class-wp-site-health.php:2495
+msgid "You should use a persistent object cache"
+msgstr "您应该使用持久对象缓存"
+
+#. translators: Available object caching services.
+#: wp-admin/includes/class-wp-site-health.php:2474
+msgid "Your host appears to support the following object caching services: %s."
+msgstr "您的主机似乎支持下列对象缓存服务：%s。"
+
+#: wp-admin/includes/class-wp-site-health.php:2469
+msgid "Your hosting provider can tell you if a persistent object cache can be enabled on your site."
+msgstr "您的主机提供商可以告诉您是否可以在您的站点上启用持久对象存储。"
+
+#: wp-admin/includes/class-wp-site-health.php:2462
+msgid "A persistent object cache is not required"
+msgstr "持久对象缓存不是必须的"
+
+#: wp-admin/includes/class-wp-site-health.php:2451
+msgid "Learn more about persistent object caching."
+msgstr "了解有关持久对象缓存的更多信息。"
+
+#: wp-admin/includes/class-wp-site-health.php:2446
+msgid "A persistent object cache makes your site&#8217;s database more efficient, resulting in faster load times because WordPress can retrieve your site&#8217;s content and settings much more quickly."
+msgstr "持久对象存储可以提升您的站点数据库的执行效率，通过让 WordPress 更快地获取您站点的内容和设置以实现更短的加载时间。"
+
+#: wp-admin/includes/class-wp-site-health.php:2443
+msgid "A persistent object cache is being used"
+msgstr "正在使用一个持久对象缓存"
+
+#. translators: Localized Support reference.
+#: wp-admin/includes/class-wp-site-health.php:2433
+msgid "https://wordpress.org/support/article/optimization/#persistent-object-cache"
+msgstr "https://wordpress.org/support/article/optimization/#persistent-object-cache"
+
+#: wp-admin/includes/class-wp-site-health.php:2408
+msgid "A page cache plugin was not detected."
+msgstr "未检测到页面缓存插件。"
+
+#: wp-admin/includes/class-wp-site-health.php:2405
+msgid "A page cache plugin was detected."
+msgstr "已检测到页面缓存插件。"
+
+#. translators: %d: Number of caching headers.
+#: wp-admin/includes/class-wp-site-health.php:2392
+msgid "There was %d client caching response header detected:"
+msgid_plural "There were %d client caching response headers detected:"
+msgstr[0] "检测到 %d 个客户端缓存响应标头："
+
+#: wp-admin/includes/class-wp-site-health.php:2387
+msgid "No client caching response headers were detected."
+msgstr "未检测到客户端缓存响应标头。"
+
+#. translators: 1: The response time in milliseconds, 2: The recommended
+#. threshold in milliseconds.
+#: wp-admin/includes/class-wp-site-health.php:2380
+msgid "Median server response time was %1$s milliseconds. It should be less than the recommended %2$s milliseconds threshold."
+msgstr "服务器响应时间的中位数是 %1$s 毫秒，其应当小于推荐的 %2$s 毫秒临界值。"
+
+#. translators: 1: The response time in milliseconds, 2: The recommended
+#. threshold in milliseconds.
+#: wp-admin/includes/class-wp-site-health.php:2373
+msgid "Median server response time was %1$s milliseconds. This is less than the recommended %2$s milliseconds threshold."
+msgstr "服务器响应时间的中位数是 %1$s 毫秒，小于推荐的 %2$s 毫秒临界值。"
+
+#: wp-admin/includes/class-wp-site-health.php:2366
+msgid "Server response time could not be determined. Verify that loopback requests are working."
+msgstr "无法确定服务器响应时间。请确认环回请求是否正常工作。"
+
+#: wp-admin/includes/class-wp-site-health.php:2359
+msgid "Page cache is detected but the server response time is still slow"
+msgstr "检测到页面缓存，但服务器响应时间仍然缓慢"
+
+#: wp-admin/includes/class-wp-site-health.php:2357
+msgid "Page cache is not detected and the server response time is slow"
+msgstr "未检测到页面缓存，且服务器响应时间缓慢"
+
+#: wp-admin/includes/class-wp-site-health.php:2353
+msgid "Page cache is detected and the server response time is good"
+msgstr "检测到页面缓存，并且服务器响应时间良好"
+
+#: wp-admin/includes/class-wp-site-health.php:2350
+msgid "Page cache is not detected but the server response time is OK"
+msgstr "未检测到页面缓存，但服务器响应时间正常"
+
+#. translators: 1: Error message, 2: Error code.
+#: wp-admin/includes/class-wp-site-health.php:2338
+msgid "Unable to detect page cache due to possible loopback request problem. Please verify that the loopback request test is passing. Error: %1$s (Code: %2$s)"
+msgstr "由于可能的环回请求问题，无法检测页面缓存的是否存在。请确认环回请求测试是否通过。错误：%1$s（代码： %2$s）"
+
+#: wp-admin/includes/class-wp-site-health.php:2334
+msgid "Unable to detect the presence of page cache"
+msgstr "无法检测到页面缓存的存在"
+
+#: wp-admin/includes/class-wp-site-health.php:2325
+msgid "Learn more about page cache"
+msgstr "了解有关页面缓存的更多信息"
+
+#: wp-admin/includes/class-wp-site-health.php:2324
+msgid "https://wordpress.org/support/article/optimization/#Caching"
+msgstr "https://wordpress.org/support/article/optimization/#Caching"
+
+#: wp-admin/includes/class-wp-site-health.php:2310
+msgid "Page cache is detected by looking for an active page cache plugin as well as making three requests to the homepage and looking for one or more of the following HTTP client caching response headers:"
+msgstr "页面缓存会通过查找已启用的页面缓存插件的同时向主页发起三次请求并查找一个或多个下列的 HTTP 客户端响应标头，来确定页面缓存的存在。"
+
+#: wp-admin/includes/class-wp-site-health.php:2309
+msgid "Page cache enhances the speed and performance of your site by saving and serving static pages instead of calling for a page every time a user visits."
+msgstr "页面缓存通过保存和提供静态页面使得用户访问时不需要每次都调用页面，进而改善了您站点的速度和性能。"
+
+#: wp-admin/includes/class-wp-site-health.php:2275
+msgid "If you are still seeing this warning after having tried the actions below, you may need to contact your hosting provider for further assistance."
+msgstr "如果在尝试了下面的操作之后您仍然看到了这些警告信息，您可能需要联系您的主机提供商以获取进一步的帮助。"
+
+#: wp-admin/includes/class-wp-site-health.php:2258
+msgid "The Authorization header is used by third-party applications you have approved for this site. Without this header, those apps cannot connect to your site."
+msgstr "授权标头被由您为此站点批准的第三方应用使用。如果没有此标头，这些应用程序将无法连接到您的站点。"
+
+#: wp-admin/includes/class-wp-site-health.php:2114
+msgid "When testing the REST API, an unexpected result was returned:"
+msgstr "当测试 REST API 时返回了预期之外的结果："
+
+#. translators: 1: The WordPress error code. 2: The WordPress error message.
+#. translators: 1: The WordPress error code. 2: The HTTP status code error
+#. message.
+#: wp-admin/includes/class-wp-site-health.php:2102
+#: wp-admin/includes/class-wp-site-health.php:2122
+msgid "REST API Response: (%1$s) %2$s"
+msgstr "REST API 响应：(%1$s) %2$s"
+
+#. translators: %s: The REST API URL.
+#: wp-admin/includes/class-wp-site-health.php:2097
+#: wp-admin/includes/class-wp-site-health.php:2117
+msgid "REST API Endpoint: %s"
+msgstr "REST API 端点：%s"
+
+#: wp-admin/includes/class-wp-site-health.php:2094
+msgid "When testing the REST API, an error was encountered:"
+msgstr "在测试 REST API 时，发生了一个错误："
+
+#. translators: %s: The server PHP version.
+#: wp-admin/includes/class-wp-site-health.php:815
+#: wp-admin/includes/dashboard.php:1845
+msgid "Your site is running on an outdated version of PHP (%s), which does not receive security updates. It should be updated."
+msgstr "您的站点正在运行过时版本的 PHP （%s），其无法接收安全更新，且应当被升级。"
+
+#. translators: %s: The server PHP version.
+#: wp-admin/includes/class-wp-site-health.php:808
+msgid "Your site is running on an outdated version of PHP (%s), which does not receive security updates and soon will not be supported by WordPress."
+msgstr "您的站点正在运行过时版本的 PHP （%s），其无法接收安全更新，而且很快将不被 WordPress 所支持。"
+
+#: wp-admin/includes/class-wp-site-health.php:787
+msgid "Requirements"
+msgstr "环境要求"
+
+#. translators: %s: The server PHP version.
+#: wp-admin/includes/class-wp-site-health.php:782
+msgid "Your site is running on an outdated version of PHP (%s), which soon will not be supported by WordPress."
+msgstr "您的站点正在运行过时版本的PHP （%s），其很快将不被 WordPress 所支持。"
+
+#. translators: %s: The minimum recommended PHP version.
+#: wp-admin/includes/class-wp-site-health.php:744
+msgid "PHP is one of the programming languages used to build WordPress. Newer versions of PHP receive regular security updates and may increase your site&#8217;s performance. The minimum recommended version of PHP is %s."
+msgstr "PHP 是用于搭建 WordPress 的编程语言之一。较新版本的 PHP 能接受定期安全更新，也能提升您网站的性能。PHP 的最低建议版本为 %s。"
+
+#: wp-admin/includes/class-wp-site-health.php:609
+msgid "Your site does not have any installed themes."
+msgstr "您的站点没有安装任何主题。"
+
+#: wp-admin/includes/class-wp-site-health.php:441
+msgid "Your site does not have any active plugins."
+msgstr "您的站点没有任何已启用的插件。"
+
+#: wp-admin/includes/class-wp-site-health-auto-updates.php:188
+msgid "Another attempt will be made with the next release."
+msgstr "下一个版本发布的时候将进行新一次的尝试。"
+
+#. translators: 1: Name of the constant used. 2: Value of the constant used.
+#: wp-admin/includes/class-wp-site-health-auto-updates.php:78
+msgid "The %1$s constant is defined as %2$s"
+msgstr "%1$s 常量被定义为 %2$s"
+
+#. translators: %1$s: The argument name. %2$s: The view name.
+#: wp-admin/includes/class-wp-list-table.php:415
+#: wp-admin/includes/class-wp-list-table.php:430
+msgid "The %1$s argument must be a non-empty string for %2$s."
+msgstr "%2$s 的参数 %1$s 必须是非空字符串。"
+
+#. translators: %s: The $link_data argument.
+#: wp-admin/includes/class-wp-list-table.php:398
+msgid "The %s argument must be an array."
+msgstr "%s 参数必须是一个数组。"
+
+#. translators: 1: Plugin name, 2: Version number, 3: Plugin URL.
+#: wp-admin/includes/class-wp-automatic-updater.php:1123
+#: wp-admin/includes/class-wp-automatic-updater.php:1195
+msgid "- %1$s version %2$s%3$s"
+msgstr "- %1$s 版本 %2$s %3$s"
+
+#. translators: 1: Plugin name, 2: Current version number, 3: New version
+#. number, 4: Plugin URL.
+#: wp-admin/includes/class-wp-automatic-updater.php:1114
+#: wp-admin/includes/class-wp-automatic-updater.php:1186
+msgid "- %1$s (from version %2$s to %3$s)%4$s"
+msgstr "- %1$s（从版本 %2$s 更新至 %3$s）%4$s"
+
+#: wp-admin/includes/class-wp-automatic-updater.php:833
+msgid "Reach out to WordPress Core developers to ensure you'll never have this problem again."
+msgstr "联系 WordPress 核心开发人员以确保您不会再遇到这个问题。"
+
+#. translators: 1: WordPress version number, 2: Link to update WordPress
+#: wp-admin/about.php:611
+msgid "Important! Your version of WordPress (%1$s) will stop receiving security updates in the near future. To keep your site secure, please <a href=\"%2$s\">update to the latest version of WordPress</a>."
+msgstr "重要！您使用的 WordPress 版本（%1$s）即将停止接收安全更新。 为了确保您站点的安全，请尽快 <a href=\"%2$s\">更新到最新的 WordPress 版本</a>。"
+
+#. translators: 1: WordPress version number, 2: Link to update WordPress
+#: wp-admin/about.php:608
+msgid "Important! Your version of WordPress (%1$s) is no longer supported, you will not receive any security updates for your website. To keep your site secure, please <a href=\"%2$s\">update to the latest version of WordPress</a>."
+msgstr "重要！您使用的 WordPress 版本（%1$s）已不再受到支持，您的站点将不会再接收到任何的安全更新。 为了确保您站点的安全，请尽快 <a href=\"%2$s\">更新到最新的 WordPress 版本</a>。"
 
 #: wp-admin/about.php:530
 msgid "https://make.wordpress.org/core/2022/10/12/wordpress-6-1-field-guide/"
@@ -379,7 +916,7 @@ msgstr "主题文件编辑器"
 #. translators: %s: Documentation URL.
 #: wp-admin/user-edit.php:818
 msgid "If this is a development website you can <a href=\"%s\" target=\"_blank\">set the environment type accordingly</a> to enable application passwords."
-msgstr "如果这是一个开发网站，您可以<a href=\"%s\" target=\"_blank\">设置相应地环境类型</a>以启用应用程序密码功能。"
+msgstr "如果这是一个开发的网站，您可以<a href=\"%s\" target=\"_blank\">设置相应的环境类型</a>以启用应用程序密码功能。"
 
 #: wp-admin/user-edit.php:813
 msgid "The application password feature requires HTTPS, which is not enabled on this site."
@@ -1234,7 +1771,7 @@ msgstr "抹除个人数据"
 #: wp-admin/includes/class-wp-automatic-updater.php:1146
 #: wp-admin/includes/class-wp-automatic-updater.php:1217
 msgid "- %1$s (from version %2$s to %3$s)"
-msgstr "- %1$s（从版本%2$s更新至%3$s）"
+msgstr "- %1$s（从版本 %2$s 更新至 %3$s）"
 
 #: wp-admin/includes/template.php:2368
 msgid "Current Header Video"
